@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="preconnect" href="{% static 'https://fonts.googleapis.com' %}">
+    <link rel="preconnect" href="{% static 'https://fonts.gstatic.com' %}" crossorigin>
+    <link href="{% static 'https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap' %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <link rel="shortcut icon" href="{% static 'favicon.png' %}" type="image/png">
+</head>
+<body>
+    <div class="glass">
+        <div class="navbar">
+            <div class="logo">
+                <img src="{% static 'TheMachine Images/The Machine 2.png' %}" alt="">
+            </div>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Artist</a></li>
+                    <li><a href="#">Analytics</a></li>
+                </ul>
+            <div class="buttons">
+                <input type="button" value="SignUp">
+                <input type="button" value="SignIn">
+            </div>
+        </div>
+        <div class="text-content">
+            <h1>THE MACHINE</h1>
+            <h2>ARTIST MOST POWERFUL TOOL</h2>
+            <p>In an everchanging industry. The Machine is artist's most powerful tool. A data analytics platform for artist.</p>
+            <button class="read">Read more</button>
+        </div>
+        <div class="footer">
+            <p>2021 CVEST MUSIC SOLUTIONS&copy;. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
