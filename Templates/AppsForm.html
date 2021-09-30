@@ -1,25 +1,48 @@
-﻿<!DOCTYPE html>
+﻿{% load static %}
+
+<!DOCTYPE html>
 
 <html lang="en">
 <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="{% static 'form-style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="{% static 'favicon.png' %}" type="image/png">
     <title>AppsForm</title>
 </head>
 <body>
-    {% extends 'base.html' %}
-   
-    {% block content %}
-
-    {% load crispy_forms_tags %}
-
     <form method='POST' action="" class="">
 
         {% csrf_token %}
-
-        {{ form|crispy }}
-
-        <input type="submit" class="" value="submit">
+        <div class="glass">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="{% static 'TheMachine Images/The Machine 2.png' %}" alt="">
+                </div>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Artist</a></li>
+                    <li><a href="#">Analytics</a></li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="row-2">
+                    <div class="p-3 py-5">
+                        <h2>Appearence Form</h2>
+                            {{form}}
+                            <input type="submit" class="" value="submit">
+                            <div class="pages">
+                                <a href="#" class="previous">&laquo; Previous</a>
+                                <a href="#">1</a>
+                                <a href="#" class="next">Next &raquo;</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </form>
-    {% endblock %}
 </body>
 </html>
