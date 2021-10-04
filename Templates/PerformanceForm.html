@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="{% static 'favicon.png' %}" type="image/png">
-    <title>PR-Form</title>
+    <title>Perform</title>
 </head>
 <body>
     <form method='POST' action="" class="">
@@ -31,12 +31,16 @@
             </div>
             <div class="container">
                 <div class="row">
-                        <h2>Publicity Form</h2>
+                        <h2>Performance Form</h2>
                         <div class="row mt-2">
-                            <div class="col-md-12"><label class="labels">Name</label></div>
-                            {% render_field form.Name class="form-control" placeholder="Name" %}
-                            <div class="col-md-12"><label class="labels">Media</label></div>
-                            {% render_field form.Media class="form-control" placeholder="Media" %}
+                            <div class="col-md-12"><label class="labels">Event</label></div>
+                            {% render_field form.Event class="form-control" placeholder="Event" %}
+                            <div class="col-md-12"><label class="labels">Date</label></div>
+                            {% render_field form.Date class="form-control" placeholder="Date" %}
+                            <div class="col-md-12"><label class="labels">Start Time</label></div>
+                            {% render_field form.Start_Time class="form-control" placeholder="Start Time" %}
+                            <div class="col-md-12"><label class="labels">Time_Slot</label></div>
+                            {% render_field form.Time_Slot class="form-control" placeholder="Time Slot" %}
                             <div class="col-md-12"><label class="labels">Country</label></div>
                             {% render_field form.Country class="form-control" placeholder="Country" %}
                         </div> 
@@ -44,10 +48,10 @@
 
                 <div class="row">
                     <div class="row mt-3">
-                        <div class="col-md-12"><label class="labels">Date</label></div>
-                        {% render_field form.Date class="form-control" placeholder="Date" %}
-                        <div class="col-md-12"><label class="labels">Link</label></div>
-                        {% render_field form.Link class="form-control" placeholder="Link" %}
+                        <div class="col-md-12"><label class="labels">City</label></div>
+                        {% render_field form.City class="form-control" placeholder="City" %}
+                        <div class="col-md-12"><label class="labels">Venue</label></div>
+                        {% render_field form.Venue class="form-control" placeholder="Venue" %}
                         <div class="button">
                             <input type="button" value="Submit">
                         </div>

@@ -1,64 +1,72 @@
+{% load static %}
+{% load widget_tweaks%}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'form-style-version10.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="{% static 'favicon.png' %}" type="image/png">
+    <title>Bookings Form</title>
 </head>
 <body>
-    <form action="results.html" method="GET">
-        <div>
-            <label for="Artist Name">Artist Name</label>
-            <input name="Artist Name" type="text" id="Artist Name" placeholder="Artist Name">
+    <form method='POST' action="" class="">
+
+        {% csrf_token %}
+        <div class="glass">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="{% static 'TheMachine Images/The Machine 2.png' %}" alt="">
+                </div>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Artist</a></li>
+                    <li><a href="#">Analytics</a></li>
+                </ul>
+            </div>
+            <div class="container">
+                <div class="row">
+                        <h2>Bookings Form</h2>
+                        <div class="row mt-2">
+                            <div class="col-md-12"><label class="labels">Artist</label></div>
+                            {% render_field form.Artist class="form-control" placeholder="Artist" %}
+                            <div class="col-md-12"><label class="labels">Event</label></div>
+                            {% render_field form.Event class="form-control" placeholder="Event" %}
+                            <div class="col-md-12"><label class="labels">Name of Event</label></div>
+                            {% render_field form.Name_of_Event class="form-control" placeholder="Name of Event" %}
+                            <div class="col-md-12"><label class="labels">Date</label></div>
+                            {% render_field form.Date class="form-control" placeholder="Date" %}
+                            <div class="col-md-12"><label class="labels">Time Slot</label></div>
+                            {% render_field form.Time_Slot class="form-control" placeholder="Time Slot" %}
+                            <div class="col-md-12"><label class="labels">Set Time</label></div>
+                            {% render_field form.Set_Time class="form-control" placeholder="Set Time" %}
+                        </div> 
+                </div>
+
+                <div class="row">
+                    <div class="row mt-3">
+                        <div class="col-md-12"><label class="labels">Country</label></div>
+                        {% render_field form.Country class="form-control" placeholder="Country" %}
+                        <div class="col-md-12"><label class="labels">City</label></div>
+                        {% render_field form.City class="form-control" placeholder="City" %}
+                        <div class="col-md-12"><label class="labels">Venue</label></div>
+                        {% render_field form.Venue class="form-control" placeholder="Venue" %}
+                        <div class="col-md-12"><label class="labels">Promoter</label></div>
+                        {% render_field form.Promoter class="form-control" placeholder="Promoter" %}
+                        <div class="col-md-12"><label class="labels">Promoter Email</label></div>
+                        {% render_field form.Promoter_Email class="form-control" placeholder="Promoter Email" %}
+                        <div class="button">
+                            <input type="button" value="Submit">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-       <div>
-           <label for="Event">Event</label>
-        <select name="Event" id="Event">
-           <option value="Festival">Festival</option>
-           <option value="Mini Tour">Mini Tour</option>
-           <option value="Corp Event">Corp Event</option>
-           <option value="Club Performance">Club Performance</option>
-           <option value="Paid App">Paid App</option>
-        </select>
-       </div> 
-       <div>
-           <label for="Name of Event">Name of Event</label>
-           <input name="Name of Event" id="Name of Event" placeholder="Name of Event" type="text">
-       </div>
-       <div>
-           <label for="Date">Date</label>
-           <input type="date" name="Date" id="date" placeholder="Date">
-       </div>
-       <div>
-           <label for="Timeslot">Timeslot</label>
-           <input type="time" name="time" id="time" min="2021-09-01">
-       </div>
-       <div>
-           <label for="Set">Set</label>
-           <input type="text" name="Set" id="Set" placeholder="Set">
-       </div>
-       <div>
-           <label for="Country">Country</label>
-           <input type="text" name="Country" id="Country" placeholder="Country">
-       </div>
-       <div>
-           <label for="City">City</label>
-           <input type="text" name="City" id="City" placeholder="City">
-       </div>
-       <div>
-           <label for="Venue">Venue</label>
-           <input type="text" name="Venue" id="Venue" placeholder="Venue">
-       </div>
-       <div>
-           <label for="Promotor">Promotor</label>
-           <input type="text" name="Promotor" id="Promotor" placeholder="Promotor">
-       </div>
-       <div>
-           <label for="Promotor Email">Promoter Email</label>
-           <input type="email" name="Promotor Email" id="Promotor Email" placeholder="Promotor Email">
-       </div>
-        <button>Submit</button>
     </form>
 </body>
 </html>

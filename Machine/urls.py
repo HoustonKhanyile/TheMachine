@@ -9,7 +9,8 @@ urlpatterns = [
     path('Performs', views.Performs, name='Performs'),
     path('Publicity', views.Publicity, name='Publicity'),
     path('results', views.results, name='results'),
-    path('Profile', views.profile, name='Profile')
+    path('Profile', views.profile, name='Profile'),
+    path('Bookings', views.Bookings, name='Bookings')
 
 ]
 

@@ -1,6 +1,6 @@
 from django.shortcuts import redirect, render
 from django.http import HttpResponse
-from .forms import AppsForm, Perform, Public_R
+from .forms import AppsForm, Book, Perform, Profiles, Public_R
 from django.core.mail import EmailMessage, send_mail
 from django.contrib import messages
 from django.conf import settings
@@ -11,7 +11,13 @@ def index(request):
     return render(request, 'index.html')
 
 def profile(request):
-    return render(request, 'Profile.html')
+    form = Profiles()
+    if request.method == 'POST':
+        form = Profiles(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('results')
+    return render(request, 'Profile.html', {'form': form})
 
 def Appearence(request):
     form = AppsForm()
@@ -47,7 +53,7 @@ def Performs(request):
         if form.is_valid():
             form.save()
             return redirect('results')
-    return render(request, 'Performance.html', {'form': form})
+    return render(request, 'PerformanceForm.html', {'form': form})
 
 def Publicity(request):
     form = Public_R()
@@ -57,6 +63,15 @@ def Publicity(request):
             form.save()
             return redirect('results')
     return render(request, 'PR-Form.html', {'form': form})
+
+def Bookings(request):
+    form = Book()
+    if request.method == 'POST':
+        form = Book(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('results')
+    return render(request, 'BookingsForm.html', {'form': form})
 
 def results(request):
     form = AppsForm()
