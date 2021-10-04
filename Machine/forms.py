@@ -8,7 +8,6 @@ class AppsForm(ModelForm):
     class Meta:
          model = Appear
          fields = ['Show', 'Media', 'Episode', 'Date', 'Time', 'Producer', 'Producer_Email']
-   
 
 class Perform(ModelForm):
     class Meta:

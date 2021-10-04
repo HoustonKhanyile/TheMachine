@@ -1,13 +1,13 @@
 ﻿{% load static %}
+{% load widget_tweaks%}
 
 <!DOCTYPE html>
 
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="{% static 'form-style.css' %}">
+    <link rel="stylesheet" href="{% static 'form-style-version10.css' %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="{% static 'style.css' %}">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="{% static 'favicon.png' %}" type="image/png">
     <title>AppsForm</title>
@@ -30,17 +30,30 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="p-3 py-5">
                         <h2>Appearence Form</h2>
-                        <div class="row mt-2" style="flex-grow: 5">
-                            {{form}}
-                            <input type="submit" class="" value="submit">
-                            <div class="pages">
-                                <a href="#" class="previous">&laquo; Previous</a>
-                                <a href="#">1</a>
-                                <a href="#" class="next">Next &raquo;</a>
-                            </div>
+                        <div class="row mt-2">
+                            <div class="col-md-12"><label class="labels">Show</label></div>
+                            {% render_field form.Show class="form-control" placeholder="Show" %}
+                            <div class="col-md-12"><label class="labels">Media</label></div>
+                            {% render_field form.Media class="form-control" placeholder="Media" %}
+                            <div class="col-md-12"><label class="labels">Episode</label></div>
+                            {% render_field form.Episode class="form-control" placeholder="Episode" %}
+                            <div class="col-md-12"><label class="labels">Date</label></div>
+                            {% render_field form.Date class="form-control" placeholder="Date" %}
+                            <div class="col-md-12"><label class="labels">Time</label></div>
+                            {% render_field form.Time class="form-control" placeholder="Time" %}
                         </div> 
+                </div>
+
+                <div class="row">
+                    <div class="row mt-3">
+                        <div class="col-md-12"><label class="labels">Producer</label></div>
+                        {% render_field form.Producer class="form-control" placeholder="Producer" %}
+                        <div class="col-md-12"><label class="labels">Producer_Email</label></div>
+                        {% render_field form.Producer_Email class="form-control" placeholder="Producer_Email" %}
+                        <div class="button">
+                            <input type="button" value="Submit">
+                        </div>
                     </div>
                 </div>
             </div>
