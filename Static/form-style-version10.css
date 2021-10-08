@@ -91,6 +91,10 @@ body{
     margin-top: 0;
 }
 
+p{
+    font-size: 0.875em;
+}
+
 .mt-3{
     padding-top: 51px;
     align-items: end;
@@ -116,7 +120,6 @@ body{
     margin: 0;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-
 
 .button input {
     margin: 25px 8px 0px 0px;
@@ -166,12 +169,7 @@ a {
 
 @media only screen 
    and (min-width : 768px) {
-.body{
-    height: 100%;
-}
-    .glass{
-    grid-template-rows: auto;
-}
+    /* styles here */
 }
 
 @media only screen 

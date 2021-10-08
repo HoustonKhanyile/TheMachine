@@ -1,6 +1,6 @@
 from django.shortcuts import redirect, render
 from django.http import HttpResponse
-from .forms import AppsForm, Book, Perform, Profiles, Public_R
+from .forms import AppsForm, Book, Perform, Profiles, Profiles2, Public_R
 from django.core.mail import EmailMessage, send_mail
 from django.contrib import messages
 from django.conf import settings
@@ -18,6 +18,15 @@ def profile(request):
             form.save()
             return redirect('results')
     return render(request, 'Profile.html', {'form': form})
+
+def profile2(request):
+    form = Profiles2()
+    if request.method =='POST':
+        form = Profiles2(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('result')
+    return render(request, 'Profile#2.html', {'form': form})
 
 def Appearence(request):
     form = AppsForm()

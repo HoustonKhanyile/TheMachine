@@ -1,3 +1,15 @@
 {
-    "editor.fontSize": 16
+    "editor.fontSize": 16,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "askForPassword": true,
+            "driver": "PostgreSQL",
+            "database": "Houston",
+            "username": "postgres",
+            "name": "Houston"
+        }
+    ]
 }

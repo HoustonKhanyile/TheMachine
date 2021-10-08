@@ -34,15 +34,18 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'Machine.apps.MachineConfig',
     'Accounts.apps.AccountsConfig',
+    'crispy_forms',
+    'widget_tweaks',
+    'phonenumber_field',
+    'reset_migrations',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.sites',
-    'crispy_forms',
-    'widget_tweaks'
+    'django.contrib.sites'
+    
 ]
 
 SITE_ID = 1

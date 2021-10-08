@@ -1,5 +1,5 @@
 from django.db import models
-
+from phonenumber_field.modelfields import PhoneNumberField
 
 Media_Choices = (
         ("TV", "TV"),
@@ -75,6 +75,7 @@ class Bookings(models.Model):
 class Profile(models.Model):
     Name = models.CharField(max_length=100)
     Last_Name = models.CharField(max_length=100)
+    Phone_number = PhoneNumberField()
     Address_Line_1 = models.CharField(max_length=300)
     Address_Line_2 = models.CharField(max_length=300)
     Postcode = models.IntegerField()
@@ -86,6 +87,18 @@ class Profile(models.Model):
 
     def __str__(self):
         return self.Name + ' ' + self.State_Region
+
+class Profile2(models.Model):
+    Spotify = models.URLField()
+    Apple_music = models.URLField()
+    Soundcloud = models.URLField()
+    Youtube = models.URLField()
+    Twitter = models.URLField()
+    Instagram = models.URLField()
+    Facebook = models.URLField()
+
+    def __str__(self):
+        return self.Spotify + ' ' + self.Facebook
 
 
 
