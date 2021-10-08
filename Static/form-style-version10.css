@@ -121,6 +121,55 @@ p{
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+.spotify{
+    background-image: url('Logo images/spotify.png');
+    background-position: left;
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.Apple-music{
+    background-image: url('Logo images/apple.png');
+    background-position: left;
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.soundcloud{
+    background-image: url('Logo images/soundcloud.png');
+    background-position: left;
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.Youtube{
+    background-image: url('Logo images/youtube.png');
+    background-position: left;
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.twitter{
+    background-image: url('Logo images/twitter-logo.png');
+    background-position: left;
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.instagram{
+    background-image: url('Logo images/instagram.png');
+    background-position: left;
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
+.facebook{
+    background-image: url('Logo images/facebook.png');
+    background-position: left;
+    background-size: 30px;
+    background-repeat: no-repeat;
+}
+
 .button input {
     margin: 25px 8px 0px 0px;
     padding: 6px 50px;

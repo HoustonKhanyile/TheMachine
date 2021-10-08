@@ -34,13 +34,13 @@
                         <h2>Commercial Profile</h2>
                         <div class="row mt-2">
                             <div class="col-md-12"><label class="labels">Spotify</label></div>
-                            {% render_field form.Spotify class="form-control" placeholder="Spotify" %}
+                            {% render_field form.Spotify|append_attr:"class:form-control spotify" placeholder="     www.spotify.com" type="text" %}
                             <div class="col-md-12"><label class="labels">Apple Music</label></div>
-                            {% render_field form.Apple_music class="form-control" placeholder="Apple Music" %}
+                            {% render_field form.Apple_music|append_attr:"class:form-control Apple-music" placeholder="     www.music.apple.com" type="text" %}
                             <div class="col-md-12"><label class="labels">Soundcloud</label></div>
-                            {% render_field form.Soundcloud class="form-control" placeholder="Soundcloud" %}
+                            {% render_field form.Soundcloud|append_attr:"class:form-control soundcloud" placeholder="     www.soundcloud.com" type="text" %}
                             <div class="col-md-12"><label class="labels">Youtube</label></div>
-                            {% render_field form.Youtube class="form-control" placeholder="Youtube" %}
+                            {% render_field form.Youtube|append_attr:"class:form-control Youtube" placeholder="     www.youtube.com" type="text" %}
                         </div> 
                 </div>
 
@@ -50,11 +50,11 @@
 
                     <div class="row mt-3">
                         <div class="col-md-12"><label class="labels">Twitter</label></div>
-                        {% render_field form.Twitter class="form-control" placeholder="Twitter" %}
+                        {% render_field form.Twitter|append_attr:"class:form-control twitter" placeholder="     www.twitter.com" type="text" %}
                         <div class="col-md-12"><label class="labels">Instagram</label></div>
-                        {% render_field form.Instagram class="form-control" placeholder="Instagram" %}
+                        {% render_field form.Instagram|append_attr:"class:form-control instagram" placeholder="     www.instagram.com" type="text"  %}
                         <div class="col-md-12"><label class="labels">Facebook</label></div>
-                        {% render_field form.Facebook class="form-control" placeholder="Facebook" %}
+                        {% render_field form.Facebook|append_attr:"class:form-control facebook" placeholder="     www.facebook.com" type="text"  %}
                         
                         <div class="button">
                             <input type="button" value="Submit">
@@ -65,7 +65,7 @@
                             <a href="#">1</a>
                             <a href="Profile#2.html" class="next">Next &raquo;</a>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
