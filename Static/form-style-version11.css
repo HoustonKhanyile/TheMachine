@@ -18,7 +18,7 @@ body{
     width: 90%;
     position: relative;
     display: grid;
-    grid-template-columns: 90%;
+    grid-template-columns: 100%;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(5px);
     font-family: 'Poppins', sans-serif;
@@ -40,7 +40,7 @@ body{
 
 .logo img{
     width: 100px;
-    height: fit-content;
+    height: 100px;
     object-fit: contain;
     object-position: top;
     z-index: 8;
@@ -69,66 +69,40 @@ body{
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-auto-rows: minmax(418px, auto); 
     padding-left: 50px;
     padding-right: 50px;
-    width: fit-content;
-}
-
-.text-center {
-    text-align: center!important;
-}
-
-.py-5 {
-    padding-top: 3rem!important;
-    padding-bottom: 3rem!important;
-}
-.p-3 {
-    padding: 1rem!important;
-}
-.align-items-center {
-    align-items: center!important;
-}
-.flex-column {
-    flex-direction: column!important;
-}
-.d-flex {
-    display: flex!important;
-}
-
-.mt-2 {
-    flex-grow: 5;
-    margin-top: 0;
-}
-
-.mt-3 {
-    margin-top: 0;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .row {
-    display: grid;
-    margin-top: calc(var(--bs-gutter-y) * -1);
-    margin-right: calc(var(--bs-gutter-x)/ -2);
-    margin-left: calc(var(--bs-gutter-x)/ -2);
-    object-fit: scale-down;
+    grid-auto-rows: minmax(418px, auto);
+    margin-top: 0;
+    margin-top: 0;
 }
 
-.py-5 {
-    padding-top: 3rem!important;
-    padding-bottom: 3rem!important;
-    justify-content: center;
+.mt-2 {
+    grid-auto-rows: 418px;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+    margin-top: 0;
 }
 
+p{
+    font-size: 0.875em;
+}
 
-.p-3 {
-    padding: 1rem!important;
-    justify-content: center;
+.mt-3{
+    padding-top: 51px;
+    align-items: end;
 }
 
 .form-control {
     display: block;
-    width: fit-content;
+    width: 364px;
     min-height: calc(1.5em + .75rem + 2px);
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -143,77 +117,50 @@ body{
     -moz-appearance: none;
     appearance: none;
     border-radius: .25rem;
+    margin: 0;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-button, input {
-    overflow: visible;
-}
-button, input, optgroup, select, textarea {
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
+
+.button input {
+    margin: 25px 8px 0px 0px;
+    padding: 6px 50px;
+    color: #fff;
+    outline: none;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #3a3ba2 20%, #4e76b3 100% );
+    transform: scale(0.97);
 }
 
-.pages{
-    display: inline-block;
-    padding-top: 25px;
-    justify-items: end;
-}
-
-a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 8px;
-  }
-  
-  a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .previous {
-    background-color: #f1f1f1;
-    color: black;
-  }
-  
-  .next {
-    background-color: #04AA6D;
-    color: white;
-  }
-
-@media only screen 
+  @media only screen 
   and (max-width : 320px) {
-  /* Styles here */
+    .glass{
+        width: fit-content;
+    }
+    .form-control{
+        width: fit-content;
+    }
 }
 
 @media only screen 
    and (max-width : 768px) {
-       .navbar{
-           height: fit-content;
-       }
-       .glass{
-           width: fit-content;
-       }
-       .container{
-           padding: 0;
-       }
-       h2{
-           padding-left: 35px;
-       }
-       .pages{
-           display: inline-block;
-           width: fit-content;
-           padding-top: 15px;
-       }
+    .form-control{
+        width: fit-content;
+    }
 }
 
 @media only screen 
    and (max-width : 1200px) {
-   /* Styles here */
+    .form-control{
+        width: fit-content;
+    }
 }
 
 @media only screen 
    and (max-width : 1600px) {
-   /* Styles here */
+    
 }

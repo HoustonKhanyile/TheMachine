@@ -153,3 +153,35 @@ body{
     text-align: center;
     bottom: 0px;
 }
+
+@media only screen 
+  and (max-width : 320px) {
+  /* Styles here */
+}
+
+@media only screen 
+   and (max-width : 768px) {
+    .glass{
+        height: fit-content;
+    }
+    .glass-2{
+        width: fit-content;
+        height: fit-content;
+    }
+    .form-control{
+        width: fit-content;
+    }
+    .footer{
+        font-size: x-small;
+    }
+}
+
+@media only screen 
+   and (max-width : 1200px) {
+   /* Styles here */
+}
+
+@media only screen 
+   and (max-width : 1600px) {
+   /* Styles here */
+}
