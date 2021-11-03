@@ -18,7 +18,7 @@ body{
     width: 90%;
     position: relative;
     display: grid;
-    grid-template-columns: 90%;
+    grid-template-columns: 100%;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(5px);
     font-family: 'Poppins', sans-serif;
@@ -183,17 +183,55 @@ a {
   }
 
 @media only screen 
-  and (max-width : 320px) {
-  /* Styles here */
+  and (max-width : 425px) {
+      html, body{
+          overflow: scroll;
+      }
+
+      .glass{
+          height: auto;
+          margin: 0px 16px;
+          border-radius: 0;
+          grid-template-columns: auto;
+      }
+
+      .navbar{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5px;
+        padding-bottom: 0;
+        
+      }
+
+      .navbar .menu{
+        margin: 10px 0 20px 0;
+        flex-wrap: wrap;
+      }
+
+      .container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+      }
+
+      .container h2{
+          text-align: center;
+          padding: 0;
+      }
 }
 
 @media only screen 
    and (max-width : 768px) {
        .navbar{
            height: fit-content;
+           width: 100%;
        }
        .glass{
            width: fit-content;
+           margin: 0px 16px;
+           grid-template-columns: 100%;
        }
        .container{
            padding: 0;

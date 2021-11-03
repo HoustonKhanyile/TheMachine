@@ -18,7 +18,7 @@ body{
     width: 90%;
     position: relative;
     display: grid;
-    grid-template-columns: 90%;
+    grid-template-columns: 100%;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(5px);
     font-family: 'Poppins', sans-serif;
@@ -73,7 +73,6 @@ body{
     grid-auto-rows: minmax(418px, auto); 
     padding-left: 50px;
     padding-right: 50px;
-    box-sizing: border-box;
     width: 100%;
 }
 
@@ -96,7 +95,7 @@ p{
 }
 
 .mt-3{
-    padding-top: 16px;
+    padding-top: 51px;
     align-items: end;
 }
 
@@ -121,55 +120,6 @@ p{
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-.spotify{
-    background-image: url('Logo images/spotify.png');
-    background-position: left;
-    background-size: 30px;
-    background-repeat: no-repeat;
-}
-
-.Apple-music{
-    background-image: url('Logo images/apple.png');
-    background-position: left;
-    background-size: 30px;
-    background-repeat: no-repeat;
-}
-
-.soundcloud{
-    background-image: url('Logo images/soundcloud.png');
-    background-position: left;
-    background-size: 30px;
-    background-repeat: no-repeat;
-}
-
-.Youtube{
-    background-image: url('Logo images/youtube.png');
-    background-position: left;
-    background-size: 30px;
-    background-repeat: no-repeat;
-}
-
-.twitter{
-    background-image: url('Logo images/twitter-logo.png');
-    background-position: left;
-    background-size: 30px;
-    background-repeat: no-repeat;
-}
-
-.instagram{
-    background-image: url('Logo images/instagram.png');
-    background-position: left;
-    background-size: 30px;
-    background-repeat: no-repeat;
-}
-
-.facebook{
-    background-image: url('Logo images/facebook.png');
-    background-position: left;
-    background-size: 30px;
-    background-repeat: no-repeat;
-}
-
 .button input {
     margin: 25px 8px 0px 0px;
     padding: 6px 50px;
@@ -185,48 +135,74 @@ p{
     transform: scale(0.97);
 }
 
-.pages{
-    padding-top: 25px;
-    justify-items: end;
-}
-
-a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 16px;
-  }
-  
-  a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .previous {
-    background-color: #f1f1f1;
-    color: black;
-  }
-  
-  .next {
-    background-color: #04AA6D;
-    color: white;
-  }
-
   @media only screen 
-  and (min-width : 320px) {
-  /* Styles here */
+  and (max-width : 425px) {
+    html, body{
+        overflow: scroll;
+    }
+
+    .glass{
+        height: auto;
+        margin: 0px 16px;
+        border-radius: 0;
+    }
+
+    .navbar{
+      flex-direction: column;
+      align-items: center;
+      padding-top: 5px;
+      padding-bottom: 0;
+      
+    }
+
+    .navbar .menu{
+      margin: 10px 0 20px 0;
+      flex-wrap: wrap;
+    }
+
+    .row{
+        width: fit-content;
+    }
+
+    .mt-2{
+        width: fit-content;
+        padding: 0;
+        margin: 0;
+    }
+
+    .button input{
+        margin-right: 0;
+        justify-items: center;
+    }
+
+    .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+
+    .container h2{
+        text-align: center;
+        padding: 0;
+    }
 }
 
 @media only screen 
-   and (min-width : 768px) {
-    /* styles here */
+   and (max-width : 768px) {
+    .form-control{
+        width: fit-content;
+    }
 }
 
 @media only screen 
-   and (min-width : 1200px) {
-   /* Styles here */
+   and (max-width : 1200px) {
+    .form-control{
+        width: fit-content;
+    }
 }
 
 @media only screen 
-   and (min-width : 1600px) {
-   /* Styles here */
+   and (max-width : 1600px) {
+    
 }

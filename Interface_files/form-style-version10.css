@@ -100,9 +100,13 @@ p{
     align-items: end;
 }
 
+.form{
+    padding-top: 50px;
+}
+
 .form-control {
     display: block;
-    width: 364px;
+    width: fit-content;
     min-height: calc(1.5em + .75rem + 2px);
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -212,21 +216,57 @@ a {
   }
 
   @media only screen 
-  and (min-width : 320px) {
-  /* Styles here */
+  and (max-width : 425px) {
+      html,body{
+          overflow: scroll;
+      }
+      .navbar{
+        display: flex;  
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5px;
+        padding-bottom: 0;
+      }
+
+      .navbar .menu{
+        margin: 10px 0 20px 0;
+        flex-wrap: wrap;
+      }
+
+      .container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+      }
+
+      .glass{
+          height: fit-content;
+          margin: 0px 16px;
+          border-radius: 0;
+      }
 }
 
 @media only screen 
-   and (min-width : 768px) {
-    /* styles here */
+   and (max-width : 768px) {
+       .navbar{
+           width: 100%;
+       }
+       .glass{
+           margin: auto;
+           grid-template-columns: 100%;
+       }
+
 }
 
 @media only screen 
-   and (min-width : 1200px) {
+   and (max-width : 1200px) {
    /* Styles here */
 }
 
 @media only screen 
-   and (min-width : 1600px) {
+   and (max-width : 1600px) {
    /* Styles here */
 }

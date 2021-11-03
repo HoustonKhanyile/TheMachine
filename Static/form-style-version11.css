@@ -73,7 +73,6 @@ body{
     grid-auto-rows: minmax(418px, auto); 
     padding-left: 50px;
     padding-right: 50px;
-    box-sizing: border-box;
     width: 100%;
 }
 
@@ -137,12 +136,55 @@ p{
 }
 
   @media only screen 
-  and (max-width : 320px) {
+  and (max-width : 425px) {
+    html, body{
+        overflow: scroll;
+    }
+
     .glass{
+        height: auto;
+        margin: 0px 16px;
+        border-radius: 0;
+    }
+
+    .navbar{
+      flex-direction: column;
+      align-items: center;
+      padding-top: 5px;
+      padding-bottom: 0;
+      
+    }
+
+    .navbar .menu{
+      margin: 10px 0 20px 0;
+      flex-wrap: wrap;
+    }
+
+    .row{
         width: fit-content;
     }
-    .form-control{
+
+    .mt-2{
         width: fit-content;
+        padding: 0;
+        margin: 0;
+    }
+
+    .button input{
+        margin-right: 0;
+        justify-items: center;
+    }
+
+    .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+    }
+
+    .container h2{
+        text-align: center;
+        padding: 0;
     }
 }
 
