@@ -82,6 +82,12 @@ def Bookings(request):
             return redirect('results')
     return render(request, 'BookingsForm.html', {'form': form})
 
+def Artist(request):
+    return render(request, 'Artist.html')
+
+def About_us(request):
+    return render(request, 'About us.html')
+
 def results(request):
     form = AppsForm()
     return render(request, 'Results.html', {'form': form})
