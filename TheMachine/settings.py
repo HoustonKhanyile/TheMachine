@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'Accounts.apps.AccountsConfig',
     'crispy_forms',
     'widget_tweaks',
+    #'chartjs',
     'phonenumber_field',
     'reset_migrations',
     'django.contrib.admin',

@@ -10,6 +10,9 @@ from django.template.loader import render_to_string
 def index(request):
     return render(request, 'index.html')
 
+def home(request):
+    return render(request, 'Home.html')
+
 def profile(request):
     form = Profiles()
     if request.method == 'POST':
@@ -87,6 +90,9 @@ def Artist(request):
 
 def About_us(request):
     return render(request, 'About us.html')
+
+def Artist_Page(request):
+    return render(request, 'Artist Page.html')
 
 def results(request):
     form = AppsForm()
