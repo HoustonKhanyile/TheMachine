@@ -1,6 +1,7 @@
+
 <script>
-const ctx = document.getElementById('myChart');
-const myChart = new Chart(ctx, {
+const ctx = document.getElementById('myChart').getContext('2d');
+const myChart = {
     type = 'bar',
     data = {
         labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
@@ -33,5 +34,5 @@ const myChart = new Chart(ctx, {
             }
         }
     }
-});
+};
 </script>

@@ -26,7 +26,7 @@ body{
 	top: 37px;
 }
 .navbar .closebtn{
-	 display: none; 
+	 display: none;
 }
 .nav-menu{
 	display: none;
@@ -177,17 +177,17 @@ body{
 .detail-bar {
 	position: absolute;
 	width: 1269px;
-	height: 59px;
+	height: 52px;
 	left: 86px;
 	top: 159px;
-	box-shadow: 0px 4px 4px 0px #000000;
+	box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
 	border-radius: 45px;
 }
 .dashboard {
 	height: 40px;
 	width: 201px;
 	left: 509px;
-	top: 18px;
+	top: 4px;
 	border-radius: 0px;
 	position: absolute;
 	font-family: Poppins;
@@ -203,11 +203,11 @@ body{
 .date{
 	position: absolute;
 	height: 32px;
-	width: 234px;
+	width: 190px;
 	left: 18px;
-	top: 17px;
-	border-radius: 10px;
-	box-shadow: 0px 4px 4px 0px #00000040;
+	top: 9px;
+	border-radius: 30px;
+	box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
 }
 .titles{
 	position: absolute;
@@ -215,6 +215,36 @@ body{
 	width: 133px;
 	left: 25px;
 	top: 5px;
+	border-radius: 0px;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.titles-share{
+	position: absolute;
+	height: 23px;
+	width: 50px;
+	left: 8px;
+	top: 5px;
+	border-radius: 0px;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.titles-download{
+	position: absolute;
+	height: 23px;
+	width: 82px;
+	left: 8px;
+	top: 6px;
 	border-radius: 0px;
 	font-family: Poppins;
 	font-size: 14px;
@@ -235,24 +265,24 @@ body{
 .share-0{
 	position: absolute;
 	height: 28px;
-	width: 109px;
-	left: 939px;
-	top: 20px;
-	border-radius: 10px;
-	box-shadow: 0px 4px 4px 0px #000000E5;
+	width: 85px;
+	left: 1037px;
+	top: 9px;
+	border-radius: 30px;
+	box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
 }
 .bi-share-0{
 	position: absolute;
-	height: 21.49996566772461px;
-	width: 19.5px;
-	left: 76px;
+	height: 19px;
+	width: 19px;
+	left: 56px;
 	top: 5px;
 	border-radius: 0px;
 }
 .bi-share{
 	position: absolute;
-	height: 15.5px;
-	width: 15.5px;
+	height: 24px;
+	width: 24px;
 	left: 0px;
 	top: 0px;
 	border-radius: 0px;
@@ -260,24 +290,32 @@ body{
 .download-0{
 	position: absolute;
 	height: 28px;
-	width: 160px;
-	left: 1058px;
-	top: 19px;
-	border-radius: 10px;
-	box-shadow: 0px 4px 4px 0px #000000E5;
+	width: 120px;
+	left: 1133px;
+	top: 9px;
+	border-radius: 30px;
+	box-shadow: 4px 4px 4px 4px rgb(0 0 0 /25%);
 }
 .bi-download-0{
 	position: absolute;
-	height: 19.497575759887695px;
-	width: 23.502033233642578px;
-	left: 112px;
+	height: 19px;
+	width: 19px;
+	left: 92px;
 	top: 5px;
 	border-radius: 0px;
 }
 .bi-download{
 	position: absolute;
-	height: 15.5px;
-	width: 15.5px;
+	height: 24px;
+	width: 24px;
+	left: 0px;
+	top: 0px;
+	border-radius: 0px;
+}
+.bi-gear{
+	position: absolute;
+	height: 24px;
+	width: 24px;
 	left: 0px;
 	top: 0px;
 	border-radius: 0px;
@@ -1630,7 +1668,6 @@ body{
 		}
 	}
 	.navbar{
-		/* display: block !important; */
 		height: 100%;
 		width: 250px;
 		position: fixed;
@@ -1868,13 +1905,13 @@ body{
 	.titles-share{
 		position: absolute;
 		left: 7px;
-		top: 4px;
+		top: 0px;
 		font-size: 8px;
 	}
 	.titles-download{
 		position: absolute;
 		left: 5px;
-		top: 3px;
+		top: 0px;
 		font-size: 8px;
 	}
 	.bi-chevron-down{
@@ -2298,34 +2335,58 @@ body{
 		box-shadow: 0px 4px 90px 0px #000000;
 	}
 	.icons{
-		width: 66px;
-		height: 24px;
+		width: 59px;
+		height: 16px;
 		position:absolute;
-		left: 192px;
+		left: 203px;
 		top: 28px;
 	}
 	.share{
-		height: 15.5px;
-		width: 15.5px;
+		height: 16px;
+		width: 16px;
 		left: 0px;
 		top: 0px;
 		position: absolute;
 		border-radius: 0px;
 	}
+	.bi-share{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+	}
 	.download{
-		height: 15.5px;
-		width: 15.5px;
-		left: 25px;
+		height: 16px;
+		width: 16px;
+		left: 19px;
 		top: 1px;
 		position: absolute;
 		/* border-radius: 0px; */
 	}
-	.settings{
-		height: 15.5px;
-		width: 15.5px;
-		left: 47px;
-		top: -2px;
+	.bi-download{
 		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.settings{
+		height: 16px;
+		width: 16px;
+		left: 37px;
+		top: 0px;
+		position: absolute;
+		border-radius: 0px;
+	}
+	.bi-gear{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 0px;
+		top: 0px;
 		border-radius: 0px;
 	}
 	.map{
@@ -2393,26 +2454,26 @@ body{
 	}
 	.share2{
 		position: absolute;
-		height: 24px;
-		width: 24px;
+		height: 16px;
+		width: 16px;
 		left: 0px;
 		top: 0px;
 		border-radius: 0px;
 	}
 	.download2{
 		position: absolute;
-		height: 24px;
-		width: 24px;
+		height: 16px;
+		width: 16px;
 		left: 21px;
 		top: 1px;
 		border-radius: 0px;
 	}
 	.settings2{
 		position: absolute;
-		height: 24px;
-		width: 24px;
+		height: 16px;
+		width: 16px;
 		left: 41px;
-		top: -2px;
+		top: 0px;
 		border-radius: 0px;
 	}
 	.pie-chart{
@@ -2534,10 +2595,10 @@ body{
 	}
 	.commercial-icons{
 		position: absolute;
-		height: 24px;
-		width: 24px;
+		height: 16px;
+		width: 59px;
 		left: 200px;
-		top: 23px;
+		top: 26px;
 		border-radius: 0px;
 	}
 	.com-chart{
@@ -2602,10 +2663,10 @@ body{
 	}
 	.audience-icons{
 		position: absolute;
-		height: 24px;
-		width: 24px;
+		height: 16px;
+		width: 58px;
 		left: 205px;
-		top: 21px;
+		top: 26px;
 		border-radius: 0px;
 	}
 	.aud-Chart{
@@ -2671,10 +2732,10 @@ body{
 	}
 	.market-icons{
 		position: absolute;
-		height: 24px;
-		width: 24px;
+		height: 16px;
+		width: 59px;
 		left: 202px;
-		top: 21px;
+		top: 27px;
 		border-radius: 0px;
 	}
 	.mar-Chart{
@@ -2752,10 +2813,10 @@ body{
 	}
 	.curve-icons{
 		position: absolute;
-		height: 24px;
-		width: 92px;
+		height: 16px;
+		width: 57px;
 		left: 190px;
-		top: 28px;
+		top: 31px;
 		border-radius: 0px;
 	}
 	.cur-Chart{
@@ -2800,7 +2861,7 @@ body{
 		top: 19px;
 		border-radius: 0px;
 		font-family: Poppins;
-		font-size: 17px;
+		font-size: 10px;
 		font-style: normal;
 		font-weight: 700;
 		line-height: 41px;
@@ -2831,10 +2892,10 @@ body{
 	}
 	.lines-icons{
 		position: absolute;
-		height: 24px;
-		width: 66px;
-		left: 181px;
-		top: 30px;
+		height: 16px;
+		width: 58px;
+		left: 186px;
+		top: 32px;
 		border-radius: 0px;
 	}
 	.li-Chart{
@@ -2879,7 +2940,7 @@ body{
 		top: 19px;
 		border-radius: 0px;
 		font-family: Poppins;
-		font-size: 17px;
+		font-size: 10px;
 		font-style: normal;
 		font-weight: 700;
 		line-height: 41px;
@@ -2910,8 +2971,8 @@ body{
 	}
 	.bargraph-icons{
 		position: absolute;
-		height: 24px;
-		width: 92px;
+		height: 16px;
+		width: 57px;
 		left: 168px;
 		top: 31px;
 		border-radius: 0px;
@@ -2926,7 +2987,7 @@ body{
 		position: absolute;
 		box-sizing: border-box !important;
 		display: block !important;
-		width: 255px !important;
+		width: 242px !important;
 		height: 179px !important;
 		top: 0px;
 	}
@@ -3846,34 +3907,58 @@ body{
 		box-shadow: 0px 4px 90px 0px #000000;
 	}
 	.icons{
-		width:92px;
-		height:24px;
+		width: 65px;
+		height: 18px;
 		position:absolute;
 		left: 268px;
 		top: 28px;
 	}
 	.share{
-		height: 15.5px;
-		width: 15.5px;
+		height: 16px;
+		width: 16px;
 		left: 0px;
 		top: 0px;
 		position: absolute;
 		border-radius: 0px;
 	}
+	.bi-share{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+	}
 	.download{
-		height: 15.5px;
-		width: 15.5px;
+		height: 16px;
+		width: 16px;
 		left: 25px;
 		top: 1px;
 		position: absolute;
 		/* border-radius: 0px; */
 	}
-	.settings{
-		height: 15.5px;
-		width: 15.5px;
-		left: 47px;
-		top: -2px;
+	.bi-download{
 		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.settings{
+		height: 16px;
+		width: 16px;
+		left: 47px;
+		top: 0px;
+		position: absolute;
+		border-radius: 0px;
+	}
+	.bi-gear{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 0px;
+		top: 0px;
 		border-radius: 0px;
 	}
 	.map{
@@ -3941,26 +4026,26 @@ body{
 	}
 	.share2{
 		position: absolute;
-		height: 24px;
-		width: 24px;
+		height: 16px;
+		width: 16px;
 		left: 0px;
 		top: 0px;
 		border-radius: 0px;
 	}
 	.download2{
 		position: absolute;
-		height: 24px;
-		width: 24px;
+		height: 16px;
+		width: 16px;
 		left: 21px;
 		top: 1px;
 		border-radius: 0px;
 	}
 	.settings2{
 		position: absolute;
-		height: 24px;
-		width: 24px;
+		height: 16px;
+		width: 16px;
 		left: 41px;
-		top: -2px;
+		top: 0px;
 		border-radius: 0px;
 	}
 	.pie-chart{
@@ -4098,10 +4183,10 @@ body{
 	}
 	#comChart{
 		position: relative;
-		display: block;
-		box-sizing: border-box;
-		height: 429px;
-		width: 671.5px;
+		display: block !important;
+		box-sizing: border-box !important;
+		height: 400px !important;
+		width: 660.5px !important;
 		top: 0px;
 	}
 	.audience{
@@ -4150,8 +4235,8 @@ body{
 	}
 	.audience-icons{
 		position: absolute;
-		height: 24px;
-		width: 24px;
+		height: 16px;
+		width: 60px;
 		left: 612px;
 		top: 51px;
 		border-radius: 0px;
@@ -4166,10 +4251,10 @@ body{
 	}
 	#audChart{
 		position: absolute;
-		display: block;
-		box-sizing: border-box;
-		height: 425px;
-		width: 635px;
+		display: block !important;
+		box-sizing: border-box !important;
+		height: 400px !important;
+		width: 660.5px !important;
 		top: 0px;
 	}
 	.market{
@@ -4219,8 +4304,8 @@ body{
 	}
 	.market-icons{
 		position: absolute;
-		height: 24px;
-		width: 24px;
+		height: 16px;
+		width: 60px;
 		left: 612px;
 		top: 43px;
 		border-radius: 0px;
@@ -4235,10 +4320,10 @@ body{
 	}
 	#marChart{
 		position: relative;
-		display: block;
-		box-sizing: border-box;
-		height: 453px;
-		width: 860px;
+		display: block !important;
+		box-sizing: border-box !important;
+		height: 400px !important;
+		width: 660.5px !important;
 		top: 0px;
 	}
 	.curve{
@@ -4299,8 +4384,8 @@ body{
 	}
 	.curve-icons{
 		position: absolute;
-		height: 24px;
-		width: 92px;
+		height: 16px;
+		width: 60px;
 		left: 159px;
 		top: 28px;
 		border-radius: 0px;
@@ -4376,8 +4461,8 @@ body{
 	}
 	.lines-icons{
 		position: absolute;
-		height: 24px;
-		width: 92px;
+		height: 16px;
+		width: 58px;
 		left: 156px;
 		top: 30px;
 		border-radius: 0px;
@@ -4453,8 +4538,8 @@ body{
 	}
 	.bargraph-icons{
 		position: absolute;
-		height: 24px;
-		width: 92px;
+		height: 16px;
+		width: 60px;
 		left: 168px;
 		top: 31px;
 		border-radius: 0px;
@@ -4943,7 +5028,7 @@ body{
 		border-radius: 0px;
 	}
 	.detail-bar {
-		height: 59px;
+		height: 44px;
 		width: 888px;
 		position: absolute;
 		left: 86px;
@@ -4955,7 +5040,7 @@ body{
 		height: 40px;
 		width: 201px;
 		left: 336px;
-		top: 10px;
+		top: 3px;
 		border-radius: 0px;
 		position: absolute;
 		font-family: Poppins;
@@ -4971,27 +5056,45 @@ body{
 	.date{
 		position: absolute;
 		height: 32px;
-		width: 234px;
+		width: 191px;
+		left: 11px;
+		top: 7px;
 		border-radius: 35px;
 		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.9);
 	}
 	.share-0{
 		position: absolute;
 		height: 28px;
-		width: 109px;
-		left: 592px;
-		top: 20px;
-		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.9);
-		border-radius: 10px;
+		width: 92px;
+		left: 655px;
+		top: 7px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+		border-radius: 30px;
+	}
+	.bi-share-0{
+		position: absolute;
+		height: 19px;
+		width: 19px;
+		left: 56px;
+		top: 5px;
+		border-radius: 0px;	
 	}
 	.download-0{
 		position: absolute;
 		height: 28px;
-		width: 160px;
-		left: 709px;
-		top: 19px;
-		border-radius: 10px;
-		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.9);
+		width: 121px;
+		left: 756px;
+		top: 7px;
+		border-radius: 30px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.bi-download-0{
+		position: absolute;
+		height: 19px;
+		width: 19px;
+		left: 92px;
+		top: 5px;
+		border-radius: 0px;	
 	}
 	.avatar{
 		position: absolute;
@@ -5288,26 +5391,26 @@ body{
 		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	}
 	.profile-text{
-		 height: 30px; 
-		 width: 228.185211px; 
-		 left: 80.370361328125px; 
-		 top: 14px; 
-		 border-radius: 0px; 
-		 position: absolute; 
-		 left: 35.52%; 
-		 right: 22.22%; 
-		 top: 2.48%; 
-		 bottom: 92.2%; 
-		 font-family: Poppins; 
-		 font-style: normal; 
-		 font-weight: bold; 
-		 font-size: 17px; 
-		 line-height: 40px; 
-		 display: flex; 
-		 align-items: flex-end; 
-		 text-align: center; 
-		 color: #FFFFFF; 
-		 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+		height: 30px; 
+		width: 228.185211px; 
+		left: 80.370361328125px; 
+		top: 14px; 
+		border-radius: 0px; 
+		position: absolute; 
+		left: 35.52%; 
+		right: 22.22%; 
+		top: 2.48%; 
+		bottom: 92.2%; 
+		font-family: Poppins; 
+		font-style: normal; 
+		font-weight: bold; 
+		font-size: 17px; 
+		line-height: 40px; 
+		display: flex; 
+		align-items: flex-end; 
+		text-align: center; 
+		color: #FFFFFF; 
+		text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
 	}
 	.profile-bar{
 		height: 387px;
@@ -5348,7 +5451,7 @@ body{
 	}
 	.satelite-text{
 		height: 35px;
-		width: 220px;
+		width: 113px;
 		left: 30px;
 		top: 17px;
 		position: absolute;
@@ -5374,34 +5477,58 @@ body{
 		box-shadow: 0px 4px 90px 0px #000000;
 	}
 	.icons{
-		width:92px;
-		height:24px;
+		width: 55px;
+		height: 16px;
 		position:absolute;
-		left: 420px;
+		left: 433px;
 		top: 28px;
 	}
 	.share{
-		height: 15.5px;
-		width: 15.5px;
+		height: 16px;
+		width: 16px;
 		left: 0px;
 		top: 0px;
 		position: absolute;
 		border-radius: 0px;
 	}
+	.bi-share{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+	}
 	.download{
-		height: 15.5px;
-		width: 15.5px;
-		left: 25px;
-		top: 1px;
+		height: 16px;
+		width: 16px;
+		left: 19px;
+		top: 0px;
 		position: absolute;
 		/* border-radius: 0px; */
 	}
-	.settings{
-		height: 15.5px;
-		width: 15.5px;
-		left: 47px;
-		top: -2px;
+	.bi-download{
 		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.settings{
+		height: 16px;
+		width: 16px;
+		left: 37px;
+		top: 0px;
+		position: absolute;
+		border-radius: 0px;
+	}
+	.bi-gear{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 0px;
+		top: 0px;
 		border-radius: 0px;
 	}
 	.map{
@@ -5469,26 +5596,26 @@ body{
 	}
 	.share2{
 		position: absolute;
-		height: 24px;
-		width: 24px;
+		height: 16px;
+		width: 16px;
 		left: 0px;
 		top: 0px;
 		border-radius: 0px;
 	}
 	.download2{
 		position: absolute;
-		height: 24px;
-		width: 24px;
-		left: 21px;
+		height: 16px;
+		width: 16px;
+		left: 19px;
 		top: 1px;
 		border-radius: 0px;
 	}
 	.settings2{
 		position: absolute;
-		height: 24px;
-		width: 24px;
-		left: 41px;
-		top: -2px;
+		height: 16px;
+		width: 16px;
+		left: 36px;
+		top: 0px;
 		border-radius: 0px;
 	}
 	.pie-chart{
@@ -5610,10 +5737,10 @@ body{
 	}
 	.commercial-icons{
 		position: absolute;
-		height: 24px;
-		width: 24px;
-		left: 789px;
-		top: 30px;
+		height: 16px;
+		width: 53px;
+		left: 800px;
+		top: 32px;
 		border-radius: 0px;
 	}
 	.com-chart{
@@ -5678,10 +5805,10 @@ body{
 	}
 	.audience-icons{
 		position: absolute;
-		height: 24px;
-		width: 24px;
-		left: 783px;
-		top: 32px;
+		height: 16px;
+		width: 53px;
+		left: 790px;
+		top: 33px;
 		border-radius: 0px;
 	}
 	.aud-Chart{
@@ -5747,10 +5874,10 @@ body{
 	}
 	.market-icons{
 		position: absolute;
-		height: 24px;
-		width: 24px;
-		left: 800px;
-		top: 31px;
+		height: 16px;
+		width: 54px;
+		left: 805px;
+		top: 34px;
 		border-radius: 0px;
 	}
 	.mar-Chart{
@@ -5827,10 +5954,10 @@ body{
 	}
 	.curve-icons{
 		position: absolute;
-		height: 24px;
-		width: 92px;
-		left: 201px;
-		top: 28px;
+		height: 16px;
+		width: 53px;
+		left: 209px;
+		top: 29px;
 		border-radius: 0px;
 	}
 	.cur-Chart{
@@ -5904,9 +6031,9 @@ body{
 	}
 	.lines-icons{
 		position: absolute;
-		height: 24px;
-		width: 92px;
-		left: 199px;
+		height: 16px;
+		width: 54px;
+		left: 207px;
 		top: 30px;
 		border-radius: 0px;
 	}
@@ -5981,9 +6108,9 @@ body{
 	}
 	.bargraph-icons{
 		position: absolute;
-		height: 24px;
-		width: 92px;
-		left: 201px;
+		height: 16px;
+		width: 54px;
+		left: 208px;
 		top: 31px;
 		border-radius: 0px;
 	}
@@ -6315,5 +6442,15 @@ body{
 		top: 0px;
 		border-radius: 0px;
 		/*background: url('About us images/rectangle_48.png');*/	
+	}
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+	.navbar{
+		display: block !important;
+		position: absolute;
+		width: 1098px;
+		height: 91px;
+		left: 185px;
+		top: 37px;	
 	}
 }

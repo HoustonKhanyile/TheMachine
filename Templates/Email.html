@@ -1,76 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
+{% load static %}
+{% load widget_tweaks%}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Email</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
-    <link rel="preconnect" href="{% static 'https://fonts.googleapis.com' %}">
-    <link rel="preconnect" href="{% static 'https://fonts.gstatic.com' %}" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="{% static 'favicon.png' %}" type="image/png">
-    <link rel="stylesheet" href="email styles.css">
+    <link rel="stylesheet" href="{% static 'email styles.css' %}">
   </head>
   
   <body>
-        <div class=e236_3903>
-          <div class=e236_3904>
-            <div class=ei236_3904_236_3834>
-              <div class=ei236_3904_236_3836>
-                <div  class="ei236_3904_236_3835">
-                </div>
-                <div class=ei236_3904_236_3837>
-                  <div  class="ei236_3904_236_3837_236_3839">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class=e236_3905>
-            <div class=e236_3906>
-              <div class=ei236_3906_236_3841>
-                <div class=ei236_3906_236_3843>
-                  <div  class="ei236_3906_236_3842">
-                  </div>
-                  <div class=ei236_3906_236_3844>
-                    <div  class="ei236_3906_236_3844_236_3846">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class=e236_3907>
-            <div class=e236_3908>
-              <span  class="ei236_3908_236_3848">1126 Riverdene, Fairydene Avenue, Newlands West, Durban
-          4037 
-          Don't like these emails? Unsubscribe.</span>
+    <div class=layout>
+      <div class="email">
+        <span>
+
+        </span>
+      </div>
+      <div class=footer>
+        <div class=address-box>
+          <span  class="address">
+            1126 Riverdene, Fairydene Avenue, Newlands West, Durban
+            4037 Don't like these emails? Unsubscribe.
+          </span>
         </div>
-        <div class=e236_3910>
-          <div class=ei236_3910_236_3852>
-            <div  class="ei236_3910_236_3853">
-            </div><div  class="ei236_3910_236_3854">
+        <div class="disclaimer">
+          <span class="disclaimer-text">&COPY;2022 CVEST MUSIC SOLUTIONS. ALL RIGHTS RESERVED.</span>
+        </div>
+        <div class=socials>
+          <div class=address-bar>
+            <div  class="pintrest">
+              <img src="{% static 'Logo images/pinterest.png' %}" alt="">
             </div>
-            <div  class="ei236_3910_236_3855">
+            <div  class="instagram">
+              <img src="{% static 'Logo images/instagram.png' %}" alt="">
             </div>
-            <div  class="ei236_3910_236_3856">
-            </div><div  class="ei236_3910_236_3857">
+            <div  class="linkedin">
+              <img src="{% static 'Logo images/linkedin.png' %}" alt="">
+            </div>
+            <div  class="facebook">
+              <img src="{% static 'Logo images/facebook (2).png' %}" alt="">
+            </div>
+            <div  class="twitter">
+              <img src="{% static 'Logo images/twitter-logo.png' %}" alt="">
             </div>
           </div>
         </div>
-        <div class=e236_3911>
-          <div class=ei236_3911_236_3859>
-            <div  class="ei236_3911_236_3860">
+        <div class=app-store>
+          <div class=app-store-bar>
+            <span class="coming-soon">Coming soon to.....</span>
+            <div  class="istore">
+              <img src="{% static 'Logo images/app-store.png' %}" alt="">
             </div>
-            <div  class="ei236_3911_236_3861">
+            <div  class="google-play">
+              <img src="{% static 'Logo images/google-play.png' %}" alt="">
             </div>
           </div>
         </div>
       </div>
-      <div  class="e236_3971">
+      <div  class="company-logo">
       </div>
     </div>
   </body>
-  </html>
+</html>

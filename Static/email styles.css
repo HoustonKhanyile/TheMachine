@@ -1,259 +1,200 @@
 @charset "UTF-8";
 
-.e236_3903 { 
+body{
+	height: 100%;
+}
+.layout {
 	overflow:hidden;
-}
-.e236_3903 { 
-	background-color:rgba(44.89062398672104, 207.1875, 177.97404438257217, 1);
+	background-color: #4375b354;
 	width:800px;
 	height:1000px;
 	position:absolute;
+	left: 137px;
 }
-.e236_3904 { 
-	background-color:rgba(36.815631687641144, 117.97360718250275, 163.62499594688416, 1);
-	width:800px;
-	height:1000px;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
-.ei236_3904_236_3834 { 
-	width:800px;
-	height:1000px;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
-.i236_3904_236_3836 { 
-	overflow:hidden;
-}
-.ei236_3904_236_3836 { 
-	background-color:rgba(215.98500072956085, 215.98500072956085, 215.98500072956085, 1);
-	width:800px;
-	height:1000px;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
-.ei236_3904_236_3835 { 
-	background-color:rgba(215.98500072956085, 215.98500072956085, 215.98500072956085, 1);
-	width:800px;
-	height:1000px;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
-.ei236_3904_236_3837 { 
-	background-color:rgba(255, 255, 255, 1);
-	width:800px;
-	height:1000px;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
-.ei236_3904_236_3837_236_3839 { 
-	background-color:rgba(246.0000005364418, 246.0000005364418, 246.0000005364418, 1);
-	width:800px;
-	height:1000px;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
-.e236_3905 { 
+.email {
 	width:600px;
 	height:572px;
 	position:absolute;
 	left:100px;
 	top:116px;
+	background: #4375b314;
 }
-.e236_3906 { 
-	width:600px;
-	height:572px;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
-.ei236_3906_236_3841 { 
-	width:600px;
-	height:572px;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
-.i236_3906_236_3843 { 
-	overflow:hidden;
-}
-.ei236_3906_236_3843 { 
-	background-color:rgba(215.98500072956085, 215.98500072956085, 215.98500072956085, 1);
-	width:600px;
-	height:572px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	border-top-left-radius:4px;
-	border-top-right-radius:4px;
-	border-bottom-left-radius:4px;
-	border-bottom-right-radius:4px;
-}
-.ei236_3906_236_3842 { 
-	background-color:rgba(215.98500072956085, 215.98500072956085, 215.98500072956085, 1);
-	width:600px;
-	height:572px;
-	position:absolute;
-	left:0px;
-	top:0px;
-	border-top-left-radius:4px;
-	border-top-right-radius:4px;
-	border-bottom-left-radius:4px;
-	border-bottom-right-radius:4px;
-}
-.ei236_3906_236_3844 { 
-	width:600px;
-	height:572px;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
-.ei236_3906_236_3844_236_3846 { 
-	background-color:rgba(255, 255, 255, 1);
-	width:600px;
-	height:572px;
-	position:absolute;
-	left:0px;
-	top:0px;
-}
-.e236_3907 { 
+.footer {
 	width:357px;
-	height:172px;
+	height: 207px;
 	position:absolute;
 	left:209px;
 	top:712px;
+	background: #4375b300;
 }
-.e236_3908 { 
+.address-box { 
 	width:357px;
 	height:36px;
 	position:absolute;
 	left:0px;
 	top:0px;
 }
-.ei236_3908_236_3848 { 
+.address {
 	color:rgba(153.00000607967377, 153.00000607967377, 153.00000607967377, 1);
 	width:334px;
 	height:54px;
 	position:absolute;
 	left:10.706185340881348px;
 	top:3px;
-	font-family:Open Sans;
+	font-family: 'Poppins';
 	text-align:center;
 	font-size:12px;
-	letter-spacing:0;
-	line-height:px;
+	letter-spacing: -1px;
+	line-height: 21px;
 }
-.e236_3910 { 
+.socials {
 	width:333.6907043457031px;
 	height:48px;
 	position:absolute;
 	left:11.041159629821777px;
 	top:60px;
+	/* background: aqua; */
 }
-.ei236_3910_236_3852 { 
+.address-bar { 
 	width:333.6907043457031px;
 	height:48px;
 	position:absolute;
 	left:0px;
 	top:0px;
 }
-.ei236_3910_236_3853 { 
+.pintrest {
 	width:58.8865966796875px;
 	height:48px;
 	position:absolute;
 	left:137.4020538330078px;
 	top:0px;
-	background-image:url(images/pinterest.png);
-	background-repeat:no-repeat;
-	background-size:cover;
 }
-.ei236_3910_236_3854 { 
+.pintrest img{
+	width: 58.8865966796875px;
+	height: 48px;
+}
+.instagram {
 	width:58.88661193847656px;
 	height:48px;
 	position:absolute;
 	left:206.1030731201172px;
 	top:0px;
-	background-image:url(images/instagram.png);
-	background-repeat:no-repeat;
-	background-size:cover;
 }
-.ei236_3910_236_3855 { 
+.instagram img{
+	width: 58.8865966796875px;
+	height: 48px;
+}
+.linkedin {
 	width:58.8865966796875px;
-	height:48px;
+	height: 48px;
 	position:absolute;
 	left:274.8041076660156px;
 	top:0px;
-	background-image:url(images/linkedin.png);
-	background-repeat:no-repeat;
-	background-size:cover;
 }
-.ei236_3910_236_3856 { 
+.linkedin img{
+	width: 58.8865966796875px;
+	height: 48px;
+}
+.facebook {
 	width:58.8865966796875px;
 	height:48px;
 	position:absolute;
 	left:68.7010269165039px;
 	top:0px;
-	background-image:url(images/facebook.png);
-	background-repeat:no-repeat;
-	background-size:cover;
 }
-.ei236_3910_236_3857 { 
+.facebook img{
+	width: 58.8865966796875px;
+	height: 48px;
+}
+.twitter {
 	width:58.8865966796875px;
 	height:48px;
 	position:absolute;
 	left:0px;
 	top:0px;
-	background-image:url(images/twitter.png);
-	background-repeat:no-repeat;
-	background-size:cover;
 }
-.e236_3911 { 
+.twitter img{
+	width: 58.8865966796875px;
+	height: 48px;
+}
+.app-store {
 	width:341.0515441894531px;
-	height:40px;
+	height: 73px;
 	position:absolute;
 	left:7.360859394073486px;
 	top:132px;
+	/* background: blue; */
 }
-.ei236_3911_236_3859 { 
+.app-store-bar {
 	width:341.0515441894531px;
-	height:40px;
+	height: 73px;
 	position:absolute;
 	left:0px;
 	top:0px;
 }
-.ei236_3911_236_3860 { 
-	width:165.61854553222656px;
-	height:40px;
+.coming-soon{
+	color:rgba(153.00000607967377, 153.00000607967377, 153.00000607967377, 1);
+	width: 110px;
+	height: 16px;
 	position:absolute;
-	left:0px;
-	top:0px;
-	background-image:url(images/apple_app_store.png);
-	background-repeat:no-repeat;
-	background-size:cover;
+	left: 118.706185px;
+	top:3px;
+	font-family: Poppins;
+	text-align:center;
+	font-size:12px;
+	letter-spacing:0;
+	line-height: 18px;
 }
-.ei236_3911_236_3861 { 
-	width:165.61854553222656px;
-	height:40px;
+.istore {
+	width: 48px;
+	height: 48px;
 	position:absolute;
-	left:175.43299865722656px;
-	top:0px;
-	background-image:url(images/google_play_store.png);
-	background-repeat:no-repeat;
-	background-size:cover;
+	left: 123px;
+	top: 22px;
 }
-.e236_3971 { 
+.istore img{
+	width: 48px;
+	height: 48px;
+}
+.google-play {
+	width: 48px;
+	height: 48px;
+	position:absolute;
+	left: 171.432999px;
+	top: 20px;
+}
+.google-play img{
+	width: 54px;
+	height: 54px;
+}
+.disclaimer{
+	width:357px;
+	height: 25px;
+	position:absolute;
+	left: -12px;
+	top: 219px;
+}
+.disclaimer-text{
+	width:357px;
+	height: 25px;
+	color: rgba(153.00000607967377, 153.00000607967377, 153.00000607967377, 1);
+	position: absolute;
+	left: 10.706185340881348px;
+	top: 3px;
+	font-family: 'Poppins';
+	text-align: center;
+	font-size: 12px;
+	letter-spacing: -1px;
+	line-height: 21px;
+}
+.company-logo {
+	z-index: 2;
 	width:154px;
 	height:88px;
 	position:absolute;
 	left:323px;
 	top:10px;
-	background-image:url(images/rectangle_49.png);
+	background-image:url('TheMachine Images/The Machine 2.png');
 	background-repeat:no-repeat;
 	background-size:cover;
 }

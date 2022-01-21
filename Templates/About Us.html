@@ -8,10 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>About Us</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
     <link rel="preconnect" href="{% static 'https://fonts.googleapis.com' %}">
     <link rel="preconnect" href="{% static 'https://fonts.gstatic.com' %}" crossorigin>
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="{% static 'favicon.png' %}" type="image/png">
     <link rel="stylesheet" href="{% static 'About Us styles.css' %}">
@@ -41,7 +39,18 @@
           <div class="rec2">
             <span class="SignUP">SignUp</span>
           </div>
+
+          <script>
+            function openNav() {
+              document.getElementById("mynavbar").style.display = "block";
+            }
+            function closeNav() {
+              document.getElementById("mynavbar").style.display = "none";
+            }
+          </script>
       </div>
+      <span class="nav-menu" style="font-size: 17px; cursor:pointer" onclick="openNav()">&#9776;OPEN</span>
+
       <div class="headline">
         <span class="headline-1">
           THE MACHINE is a data analytics platform for artist that tracks their commercial, audience & market profile.
@@ -62,7 +71,7 @@
             </svg>
         </div>
         <div class="download">
-          <span class="titles">DOWNLOAD</span>
+          <span id="titles-download" class="titles">DOWNLOAD</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
               <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
               <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
@@ -212,22 +221,34 @@
           </div>
           <div class="chart-box">
             <div class="track-1">
-              <span class="tracks">01 <span style="padding-left:260px"></span> D12 <span style="padding-left:260px"></span> Fight Music <span style="padding-left:118px"></span> 001 <span style="padding-left:180px"></span> 5467</span>
+              <span class="tracks">
+              <span class="track-no"> 01</span><span class="track-artist">D12 </span><span class="track-name"> Fight Music</span><span class="track-001"> 001 </span><span class="score">5467</span>
+              </span>
             </div>
             <div class="track-2">
-              <span class="tracks">01 <span style="padding-left:260px"></span> D12 <span style="padding-left:260px"></span> Fight Music <span style="padding-left:118px"></span> 001 <span style="padding-left:180px"></span> 5467</span>
+              <span class="tracks">
+              <span class="track-no"> 02</span><span class="track-artist">D12 </span><span class="track-name"> Fight Music</span><span class="track-001"> 001 </span><span class="score">5467</span>
+              </span>
             </div>
             <div class="track-3">
-              <span class="tracks">01 <span style="padding-left:260px"></span> D12 <span style="padding-left:260px"></span> Fight Music <span style="padding-left:118px"></span> 001 <span style="padding-left:180px"></span> 5467</span>
+              <span class="tracks">
+              <span class="track-no"> 03</span><span class="track-artist">D12 </span><span class="track-name"> Fight Music</span><span class="track-001"> 001 </span><span class="score">5467</span>
+              </span>
             </div>
             <div class="track-4">
-              <span class="tracks">01 <span style="padding-left:260px"></span> D12 <span style="padding-left:260px"></span> Fight Music <span style="padding-left:118px"></span> 001 <span style="padding-left:180px"></span> 5467</span>
+              <span class="tracks">
+              <span class="track-no"> 04</span><span class="track-artist">D12 </span><span class="track-name"> Fight Music</span><span class="track-001"> 001 </span><span class="score">5467</span>
+              </span>
             </div>
             <div class="track-5">
-              <span class="tracks">01 <span style="padding-left:260px"></span> D12 <span style="padding-left:260px"></span> Fight Music <span style="padding-left:118px"></span> 001 <span style="padding-left:180px"></span> 5467</span>
+              <span class="tracks">
+              <span class="track-no"> 05</span><span class="track-artist">D12 </span><span class="track-name"> Fight Music</span><span class="track-001"> 001 </span><span class="score">5467</span>
+              </span>
             </div>
             <div class="track-6">
-              <span class="tracks">01 <span style="padding-left:260px"></span> D12 <span style="padding-left:260px"></span> Fight Music <span style="padding-left:118px"></span> 001 <span style="padding-left:180px"></span> 5467</span>
+              <span class="tracks">
+              <span class="track-no"> 06</span><span class="track-artist">D12 </span><span class="track-name"> Fight Music</span><span class="track-001"> 001 </span><span class="score">5467</span>
+              </span>
             </div>
           </div>
           <div class="pagination">

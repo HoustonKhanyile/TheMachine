@@ -11,16 +11,20 @@ body{
     height: 120vh;
     width: 100%;
     padding-top: 30px;
+    overflow: hidden;
 }
 
 .logo{
     display: grid;
+    /* position: absolute; */
+    /* width: 100px; */
+    /* height: 100px; */
     justify-items: center;
     padding-top: 20px;
 }
 .logo img{
     width: 100px;
-    height: 100px;
+    height: 80px;
     object-fit: contain;
     object-position: top;
     z-index: 8;
@@ -134,13 +138,102 @@ body{
     text-align: center;
 }
 
-@media only screen 
-  and (max-width : 320px) {
-  /* Styles here */
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    .glass{
+        width: 320px;
+        height: 628.8px;
+    }
+    .logo{
+        position: absolute;
+        left: 102px;
+        top: -10px;
+        width: 100px;
+        height: 80px;
+        justify-content: center;
+    }
+    .glass-2{
+        position: absolute;
+        top: 84px;
+        left: 35px;
+        width: fit-content !important;
+        height: fit-content !important;
+    }
+    h2{
+        display: block;
+        font-size: 1.3em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    .form-control{
+        width: fit-content;
+    }
+    .footer{
+        position: absolute;
+        top: 511px;
+        left: 41px;
+        font-size: x-small;
+    }
 }
-
-@media only screen 
-   and (max-width : 768px) {
+@media only screen and (min-width: 374px) and (max-width :375px) {
+    .glass{
+        position: absolute;
+        left: 28px;
+        top: 0px;
+        width: 320px;
+        height: 628.8px;
+    }
+}
+@media only screen and (min-width: 376px) and (max-width :425px) {
+    .glass{
+        position: absolute;
+        left: 56px;
+        top: 0px;
+        width: 320px;
+        height: 628.8px;
+    }
+}
+@media only screen and (min-width: 426px) and (max-width : 768px) {
+    body{
+        padding-top: 0%;
+    }
+    h2{
+        display: block;
+        font-size: 1.2em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    .glass{
+        height: fit-content;
+    }
+    .logo{
+        top: 0px;
+        padding-top: 0%;
+    }
+    .glass-2{
+        /* position: absolute; */
+        /* top: 0px; */
+        width: fit-content;
+        height: fit-content;
+    }
+    .form-control{
+        width: fit-content;
+    }
+    .footer{
+        /* position: absolute; */
+        /* top: 0px; */
+        font-size: x-small;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width : 1200px) {
+    body{
+        padding-top: 0%;
+    }
     .glass{
         height: fit-content;
     }
@@ -155,13 +248,18 @@ body{
         font-size: x-small;
     }
 }
-
-@media only screen 
-   and (max-width : 1200px) {
-   /* Styles here */
-}
-
-@media only screen 
-   and (max-width : 1600px) {
-   /* Styles here */
+@media only screen and (min-width: 1200px) and (max-width : 1600px) {
+    .glass{
+        height: fit-content;
+    }
+    .glass-2{
+        width: fit-content;
+        height: fit-content;
+    }
+    .form-control{
+        width: fit-content;
+    }
+    .footer{
+        font-size: x-small;
+    }
 }

@@ -18,8 +18,13 @@
 </head>
 <body>
   <div class="glass">
-    <div id="myNavbar" class="navbar">
+    <div id="myNavbar">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <script>
+        var nav = document.querySelector('#myNavbar')
+        nav.classList.add('nav-remove')
+        nav.classList.add('navbar')
+      </script>
       <div class="logo">
         <img src="{% static 'TheMachine Images/The Machine 2.png' %}" alt="">
       </div>
@@ -41,7 +46,7 @@
           <span class="SignUP">SignUp</span>
         </div>
         <span class="nav-menu" style="font-size: 17px; cursor:pointer" onclick="openNav()">&#9776;OPEN</span>
-
+        
         <script>
           function openNav() {
             document.getElementById("myNavbar").style.display = "block";

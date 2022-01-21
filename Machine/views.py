@@ -97,3 +97,6 @@ def Artist_Page(request):
 def results(request):
     form = AppsForm()
     return render(request, 'Results.html', {'form': form})
+
+def email(request):
+    return render(request, 'Email.html')

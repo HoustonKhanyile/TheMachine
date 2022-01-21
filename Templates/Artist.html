@@ -8,7 +8,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Artist</title>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="preconnect" href="{% static 'https://fonts.googleapis.com' %}">
     <link rel="preconnect" href="{% static 'https://fonts.gstatic.com' %}" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
@@ -17,7 +16,9 @@
     <link rel="stylesheet" href="{% static 'Artist styles.css' %}">
   </head>
     <body>
-      <div class="navbar">
+      <div class="glass-2">
+      <div id="mynavbar" class="navbar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <div class="logo">
           <img src="{% static 'TheMachine Images/The Machine 2.png' %}" alt="">
         </div>
@@ -38,43 +39,56 @@
           <div class="rec2">
             <span class="SignUP">SignUp</span>
           </div>
+
+          <script>
+            function openNav() {
+              document.getElementById("mynavbar").style.display = "block";
+            }
+            function closeNav() {
+              document.getElementById("mynavbar").style.display = "none";
+            }
+          </script>
+      </div>
+      <span class="nav-menu" style="font-size: 17px; cursor:pointer" onclick="openNav()">&#9776;OPEN</span>
+      <div class="logo-2">
+        <img src="{% static 'TheMachine Images/The Machine 2.png' %}" alt="">
       </div>
       <div class="glass">
         <div class="genre-1"><span class="artist-glass">ARTIST</span></div>
         <div class="artist-cards">
-          <div class="artist-card-1"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-2"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-3"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-4"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-5"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-6"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-7"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-8"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-9"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-1"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-2"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-3"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-4"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-5"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-6"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-7"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-8"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-9"><span class="artist-name">Artist-Name</span></div>
         </div>
         <div class="genre-2"><span class="genre-glass">GENRE</span></div>
         <div class="artist-cards-2">
-          <div class="artist-card-1"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-2"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-3"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-4"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-5"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-6"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-7"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-8"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-9"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-1"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-2"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-3"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-4"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-5"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-6"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-7"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-8"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-9"><span class="artist-name">Artist-Name</span></div>
         </div>
         <div class="genre-3"><span class="genre-glass">GENRE</span></div>
         <div class="artist-cards-3">
-          <div class="artist-card-1"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-2"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-3"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-4"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-5"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-6"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-7"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-8"><span class="artist-name">Artist-Name</span></div>
-          <div class="artist-card-9"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-1"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-2"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-3"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-4"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-5"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-6"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-7"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-8"><span class="artist-name">Artist-Name</span></div>
+          <div id="A-cards" class="artist-card-9"><span class="artist-name">Artist-Name</span></div>
         </div>
       </div>
       <div class="pagination">
@@ -136,6 +150,7 @@
         <div class="company-logo">
           <img src="{%static 'TheMachine Images/About us images/rectangle_48.png' %}" alt="">
         </div>
+      </div>
       </div>
     </body>
 </html>

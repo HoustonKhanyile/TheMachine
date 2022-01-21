@@ -26,8 +26,8 @@ body{
 .navbar{
 	position: absolute;
 	height: 91px;
-	width: 1078px;
-	left: 83px;
+	width: 1094px !important;
+	left: 152px;
 	top: 46px;
 	border-radius: 0px;
 }
@@ -93,6 +93,17 @@ body{
 	border-radius: 45px;
 	border: 3px solid #FFFFFF;	
 }
+#search-area{
+	position: absolute;
+    left: 8px;
+    top: -2px;
+    background: #ffffff00;
+    border: #ffffff00;
+    border-radius: 45px;
+    font-family: 'Poppins';
+    font-size: 19px;
+    font-weight: 700;	
+}
 .search-icon{
 	position: absolute;
 	height: 24px;
@@ -157,14 +168,19 @@ body{
 	letter-spacing: 0em;
 	text-align: left;
 }
+.closebtn{
+	display: none;
+}
+.nav-menu{
+	display: none;
+}
 .headline{
 	position: absolute;
-	height: 89px;
+	height: 105px;
 	width: 1277px;
 	left: 95px;
 	top: 208px;
 	border-radius: 0px;
-	
 }
 .headline-1{
 	position: absolute;
@@ -188,7 +204,7 @@ body{
 	left: 86px;
 	top: 373px;
 	border-radius: 45px;
-	box-shadow: 0px 4px 4px 0px #000000;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
 }
 .stats{
 	position: absolute;
@@ -208,11 +224,11 @@ body{
 .date{
 	position: absolute;
 	height: 32px;
-	width: 234px;
-	left: 18px;
+	width: 181px;
+	left: 13px;
 	top: 12px;
-	border-radius: 10px;
-	box-shadow: 0px 4px 4px 0px #00000040;
+	border-radius: 45px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
 }
 .titles{
 	position: absolute;
@@ -241,10 +257,10 @@ body{
 	position: absolute;
 	height: 30px;
 	width: 112px;
-	left: 945px;
+	left: 983px;
 	top: 14px;
-	border-radius: 10px;
-	box-shadow: 0px 4px 4px 0px #000000E5;
+	border-radius: 45px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
 }
 .bi-share{
 	position: absolute;
@@ -258,10 +274,10 @@ body{
 	position: absolute;
 	height: 30px;
 	width: 148px;
-	left: 1089px;
+	left: 1107px;
 	top: 14px;
-	border-radius: 10px;
-	box-shadow: 0px 4px 4px 0px #000000E5;
+	border-radius: 45px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
 }
 .bi-download{
 	position: absolute;
@@ -277,7 +293,8 @@ body{
 	width: 648px;
 	left: 85px;
 	top: 486px;
-	border-radius: 0px;
+	border-radius: 102px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
 }
 .option-2{
 	position: absolute;
@@ -285,18 +302,33 @@ body{
 	width: 648px;
 	left: 0px;
 	top: 0px;
-	border-radius: 59px;
-	box-shadow: 0px 4px 4px 0px #000000;
+	border-radius: 102px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
 }
 .text{
 	position: absolute;
 	height: 34px;
 	width: 136px;
-	left: 40px;
-	top: 21px;
+	left: 42px;
+	top: 41px;
 	border-radius: 0px;
 	font-family: Poppins;
 	font-size: 27px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.text-2{
+	position: absolute;
+	height: 34px;
+	width: 136px;
+	left: 162px;
+	top: 46px;
+	border-radius: 0px;
+	font-family: Poppins;
+	font-size: 10px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 41px;
@@ -307,8 +339,8 @@ body{
 	position: absolute;
 	height: 24px;
 	width: 92px;
-	left: 535px;
-	top: 33px;
+	left: 511px;
+	top: 51px;
 	border-radius: 0px;
 }
 .share-2{
@@ -359,10 +391,24 @@ body{
 .line{
 	position: absolute;
 	height: 0px;
-	width: 602.003303289314px;
-	left: 23px;
-	top: 67px;
+	width: 562.003303px;
+	left: 42px;
+	top: 76px;
 	border-radius: 0px;
+}
+.option-chart{
+	position: absolute;
+	width: 622px;
+	height: 485px;
+	left: 21px;
+	top: 70px;
+}
+#myChart{
+	position: relative;
+	width: 624px;
+	height: 476px;
+	left: 0px;
+	top: 0px;
 }
 .news{
 	position: absolute;
@@ -370,7 +416,8 @@ body{
 	width: 603px;
 	left: 745px;
 	top: 487px;
-	border-radius: 0px;
+	border-radius: 102px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
 }
 .news-2{
 	position: absolute;
@@ -378,15 +425,15 @@ body{
 	width: 603px;
 	left: 0px;
 	top: 0px;
-	border-radius: 59px;
-	box-shadow: 0px 4px 4px 0px #000000;
+	border-radius: 102px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
 }
 .news-text{
 	position: absolute;
 	height: 34px;
 	width: 90px;
-	left: 20px;
-	top: 20px;
+	left: 25px;
+	top: 38px;
 	border-radius: 0px;
 	font-family: Poppins;
 	font-size: 27px;
@@ -401,7 +448,7 @@ body{
 	height: 24px;
 	width: 92px;
 	left: 480px;
-	top: 28px;
+	top: 47px;
 	border-radius: 0px;
 }
 .share-3{
@@ -449,13 +496,81 @@ body{
 	width: 24px;
 	height: 24px;
 }
+.news-vector{
+	position: absolute;
+	left: 575px;
+	top: 87px;
+	border-radius: 45px;
+	width: 11px;
+	height: 384px;
+	border: 1px solid #FFFFFF;
+	box-shadow: 0px 4px 90px 0px #000000;
+	background: #FFFFFF;
+}
 .news-line{
 	position: absolute;
 	height: 0px;
 	width: 551.003303289314px;
 	left: 26px;
-	top: 66px;
+	top: 73px;
 	border-radius: 0px;
+}
+.news-article1{
+	position: absolute;
+	left: 27px;
+	top: 97px;
+	border-bottom: 1px solid #000000;
+	width: 525px;
+	height: 54px;
+	overflow: hidden;
+}
+#cGFapKTwURRRmS2T{
+	background: url('TheMachine Images/Background color.png');
+}
+.news-article2{
+	position: absolute;
+	left: 27px;
+	top: 161px;
+	border-bottom: 1px solid #FFFFFF;
+	width: 525px;
+	height: 54px;
+	overflow: hidden;
+}
+.news-article3{
+	position: absolute;
+	left: 27px;
+	top: 225px;
+	border-bottom: 1px solid #FFFFFF;
+	width: 525px;
+	height: 54px;
+	overflow: hidden;	
+}
+.news-article4{
+	position: absolute;
+	left: 27px;
+	top: 289px;
+	border-bottom: 1px solid #FFFFFF;
+	width: 525px;
+	height: 54px;
+	overflow: hidden;		
+}
+.news-article5{
+	position: absolute;
+	left: 27px;
+	top: 353px;
+	border-bottom: 1px solid #FFFFFF;
+	width: 525px;
+	height: 54px;
+	overflow: hidden;
+}
+.news-article6{
+	position: absolute;	
+	left: 27px;
+	top: 413px;
+	border-bottom: 1px solid #FFFFFF;
+	width: 525px;
+	height: 54px;
+	overflow: hidden;
 }
 .chart{
 	position: absolute;
@@ -463,7 +578,8 @@ body{
 	width: 1270px;
 	left: 85px;
 	top: 1065px;
-	border-radius: 0px;
+	border-radius: 102px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
 }
 .chart-2{
 	position: absolute;
@@ -471,8 +587,8 @@ body{
 	width: 1270px;
 	left: 0px;
 	top: 0px;
-	border-radius: 59px;
-	box-shadow: 0px 4px 4px 0px #000000;
+	border-radius: 102px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
 }
 .chart-text{
 	position: absolute;
@@ -550,13 +666,189 @@ body{
 	top: 89.73px;
 	border-radius: 0px;
 }
+.chart-info{
+	position: absolute;
+	left: 49px;
+	top: 117px;
+	width: 1165px;
+	height: 32px;
+	border: 1px solid #FFFFFF;
+}
+.chart-no{
+	position: absolute;
+	left: 28px;
+	top: 0px;
+}
+.artist{
+	position: absolute;
+	left: 300px;
+	top: 0px;
+}
+.track{
+	position: absolute;
+	left: 600px;
+	top: 0px;
+}
+.track-id{
+	position: absolute;
+	left: 800px;
+	top: 0px;
+}
+.artist-score{
+	position: absolute;
+	left: 1000px;
+	top: 0px;
+}
+.chart-box{
+	position: absolute;
+	left: 49px;
+	top: 170px;
+	width: 1165px;
+	height: 341px;
+	border: 1px solid #FFFFFF;
+	border-radius: 45px;
+}
+.track-no{
+	padding-left: 0px;
+}
+.track-artist{
+	padding-left: 260px;
+}
+.track-name{
+	padding-left: 260px;
+}
+.track-001{
+	padding-left: 120px;
+}
+.artist-track{
+	padding-left: 181px;
+}
+.score{
+	padding-left: 180px;
+}
+.tracks{
+	position: absolute;
+	margin-left: 1.5em;
+	top: 13px;
+	font-size: 17px;
+	font-family: poppins;
+	font-weight: 700;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.track-1{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1165px;
+	height: 54px;
+	border-bottom: 1px solid #FFFFFF;
+}
+.track-2{
+	position: absolute;
+	left: 0px;
+	top: 55px;
+	width: 1165px;
+	height: 54px;
+	border-bottom: 1px solid #FFFFFF;
+}
+.track-3{
+	position: absolute;
+	left: 0px;
+	top: 110px;
+	width: 1165px;
+	height: 54px;
+	border-bottom: 1px solid #FFFFFF;
+}
+.track-4{
+	position: absolute;
+	left: 0px;
+	top: 165px;
+	width: 1165px;
+	height: 54px;
+	border-bottom: 1px solid #FFFFFF;
+}
+.track-5{
+	position: absolute;
+	left: 0px;
+	top: 221px;
+	width: 1165px;
+	height: 54px;
+	border-bottom: 1px solid #FFFFFF;
+}
+.track-6{
+	position: absolute;
+	left: 0px;
+	top: 277px;
+	width: 1165px;
+	height: 54px;
+}
+.pagination{
+	position: absolute;
+	height: 23px;
+	width: 79px;
+	left: 49px;
+	top: 525px;
+	border-radius: 0px;
+}
+.left-arrow-chevron{
+	position: absolute;
+	height: 24px;
+	width: 24px;
+	left: 26px;
+	top: 5px;
+	border-radius: 0px;
+}
+.bi-chevron-double-left{
+	position: absolute;
+	width: 12px;
+	height: 17px;
+	left: 0px;
+	top: 0px;
+}
+.one{
+	position: absolute;
+	height: 20px;
+	width: 11px;
+	left: 47px;
+	top: 0px;
+	border-radius: 0px;
+	font-size: 17px;
+}
+.right-arrow-chevron{
+	position: absolute;
+	height: 24px;
+	width: 24px;
+	left: 64px;
+	top: 5px;
+	border-radius: 0px;
+}
+.bi-chevron-double-right{
+	position: absolute;
+	width: 12px;
+	height: 17px;
+	left: 0px;
+	top: 0px;
+}
+.chart-vector{
+	position: absolute;
+	left: 1241px;
+	top: 115px;
+	width: 11px;
+	height: 398px;
+	border-radius: 45px;
+	border: 1px solid #FFFFFF;
+	box-shadow: 0px 4px 90px 0px #000000;
+	background: #FFFFFF;
+}
 .commercial{
 	position: absolute;
 	height: 414px;
 	width: 400px;
 	left: 82px;
 	top: 1650px;
-	border-radius: 0px;
+	border-radius: 85px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
 }
 .commercial-2{
 	position: absolute;
@@ -564,15 +856,15 @@ body{
 	width: 400px;
 	left: 0px;
 	top: 0px;
-	border-radius: 59px;
-	box-shadow: 0px 4px 4px 0px #000000;
+	border-radius: 85px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
 }
 .commercial-text{
 	position: absolute;
 	height: 33px;
 	width: 120px;
 	left: 30px;
-	top: 10px;
+	top: 16px;
 	border-radius: 0px;
 	font-family: Poppins;
 	font-size: 27px;
@@ -587,7 +879,7 @@ body{
 	height: 24px;
 	width: 92px;
 	left: 277px;
-	top: 21px;
+	top: 24px;
 	border-radius: 0px;
 }
 .share-5{
@@ -635,6 +927,20 @@ body{
 	width: 24px;
 	height: 24px;
 }
+.comm-chart{
+	position: absolute;
+	left: 0px;
+	top: 53px;
+	width: 353px;
+	height: 334px;
+}
+#commChart{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 353px;
+	height: 334px;
+}
 .commercial-vector{
 	position: absolute;
 	height: 291px;
@@ -660,7 +966,8 @@ body{
 	width: 400px;
 	left: 517px;
 	top: 1650px;
-	border-radius: 0px;
+	border-radius: 102px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
 }
 .audience-2{
 	position: absolute;
@@ -668,15 +975,15 @@ body{
 	width: 400px;
 	left: 0px;
 	top: 0px;
-	border-radius: 59px;
-	box-shadow: 0px 4px 4px 0px #000000;
+	border-radius: 102px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
 }
 .audience-text{
 	position: absolute;
 	height: 33px;
 	width: 120px;
-	left: 27px;
-	top: 10px;
+	left: 34px;
+	top: 17px;
 	border-radius: 0px;
 	font-family: Poppins;
 	font-size: 27px;
@@ -690,8 +997,8 @@ body{
 	position: absolute;
 	height: 24px;
 	width: 92px;
-	left: 281px;
-	top: 19px;
+	left: 270px;
+	top: 24px;
 	border-radius: 0px;
 }
 .share-6{
@@ -739,6 +1046,20 @@ body{
 	width: 24px;
 	height: 24px;
 }
+.aud-chart{
+	position: absolute;
+	left: 24px;
+	top: 53px;
+	width: 324px;
+	height: 323px;
+}
+.audChart{
+	position: absolute;
+	left: 24px;
+	top: 53px;
+	width: 324px;
+	height: 323px;
+}
 .audience-vector{
 	position: absolute;
 	height: 291px;
@@ -753,7 +1074,7 @@ body{
 .audience-line{
 	position: absolute;
 	height: 0px;
-	width: 344px;
+	width: 331px;
 	left: 31px;
 	top: 50px;
 	border-radius: 0px;
@@ -764,7 +1085,8 @@ body{
 	width: 400px;
 	left: 952px;
 	top: 1650px;
-	border-radius: 0px;
+	border-radius: 102px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
 }
 .market-2{
 	position: absolute;
@@ -772,15 +1094,15 @@ body{
 	width: 400px;
 	left: 0px;
 	top: 0px;
-	border-radius: 59px;
-	box-shadow: 0px 4px 4px 0px #000000;
+	border-radius: 102px;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, .5);
 }
 .market-text{
 	position: absolute;
 	height: 33px;
 	width: 120px;
 	left: 31px;
-	top: 10px;
+	top: 16px;
 	border-radius: 0px;
 	font-family: Poppins;
 	font-size: 27px;
@@ -794,8 +1116,8 @@ body{
 	position: absolute;
 	height: 24px;
 	width: 92px;
-	left: 278px;
-	top: 20px;
+	left: 266px;
+	top: 24px;
 	border-radius: 0px;
 }
 .share-7{
@@ -843,6 +1165,20 @@ body{
 	width: 24px;
 	height: 24px;
 }
+.mar-chart{
+	position: absolute;
+	left: 24px;
+	top: 53px;
+	width: 324px;
+	height: 323px;
+}
+.marChart{
+	position: absolute;
+	left: 24px;
+	top: 53px;
+	width: 324px;
+	height: 323px;
+}
 .market-vector{
 	position: absolute;
 	height: 291px;
@@ -857,7 +1193,7 @@ body{
 .market-line{
 	position: absolute;
 	height: 0px;
-	width: 344px;
+	width: 327px;
 	left: 31px;
 	top: 50px;
 	border-radius: 0px;
@@ -989,46 +1325,50 @@ body{
 }
 .facebook{
 	position: absolute;
-	height: 24px;
-	width: 24px;
+	height: 29px;
+	width: 32px;
 	top: 0px;
 	left: 0px;
 }
 .facebook img{
-	height: 24px;
-	width: 24px;
+	height: 29px;
+	width: 32px;
+	position: absolute;
+	top: -4px;
 }
 .twitter{
 	position: absolute;
-	height: 24px;
-	width: 24px;
+	height: 21px;
+	width: 21px;
 	top: 0px;
-	left: 42px;
+	left: 46px;
 }
 .twitter img{
-	height: 20px;
+	height: 21px;
 	width: 21px;
 }
 .youtube{
 	position: absolute;
-	height: 24px;
-	width: 24px;
+	height: 32px;
+	width: 30px;
 	top: 0px;
-	left: 87px;
+	left: 82px;
 }
 .youtube img{
-	height: 26px;
-	width: 24px;
+	height: 32px;
+	width: 30px;
+	position: absolute;
+	top: -5px;
 }
 .instagram{
 	position: absolute;
-	height: 24px;
+	height: 23px;
 	width: 24px;
 	top: 0px;
-	left: 130px;
+	left: 125px;
 }
 .instagram img{
-	height: 24px;
+	height: 23px;
 	width: 24px;
 }
 .links{
@@ -1179,25 +1519,4638 @@ body{
 	border-radius: 0px;
 	/*background: url('About us images/rectangle_48.png');*/	
 }
-@media screen and (max-width:360px) {
-	
+@media screen and (min-width:320px) and (max-width:425px) {
+	body{
+		overflow: auto;
+		height: 2832px;
+	}
+	.glass{
+		position: absolute;
+		width: 320px;
+		height: 100%;
+		left: -75px;
+	}
+	@media screen and (min-width:374px) and (max-width:375px) {
+		.glass{
+			position: absolute;
+			width: 320px;
+			height: 100%;
+			left: -48px;
+		}
+		
+	}
+	.navbar{
+		height: 100%;
+		width: 250px !important;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		background-color: #111;
+		overflow-x: hidden;
+		padding-top: 60px;
+	}
+	.navbar a{
+		padding: 8px 8px 8px 32px;
+		text-decoration: none;
+		font-size: 25px;
+		color: #818181;
+		display: block;
+	}
+	.navbar a:hover{
+		color: #f1f1f1;
+	}
+	.closebtn{
+		position: absolute;
+		top: 0;
+		right: 25px;
+		font-size: 36px;
+		margin-left: 50px;
+	}
+	.nav-menu{
+		display: block;
+		z-index: auto;
+	}
+	.logo{
+		position: absolute;
+		width: 50px;
+		height: 50px;
+		left: 38px;
+		top: 18px;
+	}
+	.logo img {
+		position: absolute;
+		width: 50px;
+		height: fit-content;
+		left: 0px;
+		top: 0px;
+	}
+	.HOME {
+		position: absolute;
+		width: 58px;
+		height: 35px;
+		left: 18.17%;
+		right: 73.12%;
+		top: 30.25%;
+		bottom: 15.38%;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		line-height: 40px;
+		color: #FFFFFF;
+	}
+	.ARTIST {
+		position: absolute;
+		width: 60px;
+		height: 35px;
+		left: 17.37%;
+		right: 61.17%;
+		top: 36.25%;
+		bottom: 15.38%;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		line-height: 40px;
+		color: #FFFFFF;
+	}
+	.ABOUTUS {
+		position: absolute;
+		width: 92px;
+		height: 35px;
+		left: 17.52%;
+		right: 44.77%;
+		top: 42.25%;
+		bottom: 15.38%;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		line-height: 40px;
+		color: #FFFFFF;
+	}
+	.search-bar {
+		position: absolute;
+		left: 16.56%;
+		right: 25.59%;
+		top: 49.45%;
+		bottom: 13.19%;
+		border: 3px solid #FFFFFF;
+		box-sizing: border-box;
+		border-radius: 10px;
+		width: 107.88px;
+		height: 28.02px;
+	}
+	.search-icon {
+		position: absolute;
+		left: 76.54%;
+		right: 26.67%;
+		top: 8.55%;
+		bottom: 13.19%;
+		height: 16px;
+		width: 19.10626220703125px;
+		border-radius: 0px;
+	}
+	#search-area{
+		position: absolute;
+		left: 8px;
+		top: -2px;
+		background: #ffffff00;
+		border: #ffffff00;
+		border-radius: 45px;
+		font-family: 'Poppins';
+		font-size: 16px;
+		font-weight: 700;
+	}
+	.bi-search {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		height: 16px;
+		width: 19.106262px;
+	}
+	.rec{
+		position: absolute;
+		width: 76.57px;
+		height: 32px;
+		left: 45px;
+		top: 56.76%;
+		bottom: 13.19%;
+		background: #6484B4;
+		border-radius: 10px;
+	}
+	.SignIn {
+		position: absolute;
+		bottom: 19.78%;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		line-height: 40px;
+		color: #FFFFFF;
+		width: 94.94293212890625px;
+		left: 12px;
+		top: -5px;
+		border-radius: 0px;
+	}
+	.rec2 {
+		position: absolute;
+		width: 75.57px;
+		height: 33px;
+		left: 47px;
+		right: 12.16%;
+		top: 63.96%;
+		bottom: 13.19%;
+		background: #7E81D1;
+		border-radius: 10px;
+	}
+	.SignUP {
+		position: absolute;
+		left: 8px;
+		right: 12.43%;
+		bottom: 15.38%;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 17px;
+		line-height: 40px;
+		color: #FFFFFF;
+		height: 30px;
+		width: auto;
+		top: -4px;
+		border-radius: 0px;
+	}
+	.headline{
+		position: absolute;
+		height: 49px;
+		width: 275px;
+		left: 95px;
+		top: 208px;
+		border-radius: 0px;
+	}
+	.headline-1{
+		position: absolute;
+		height: 49px;
+		width: 275px;
+		left: 0px;
+		top: 0px;
+		font-family: Poppins;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 20px;
+		letter-spacing: 0px;
+		text-align: left;
+	}
+	.detail-bar{
+		position: absolute;
+		height: 34px;
+		width: 302px;
+		left: 86px;
+		top: 273px;
+		border-radius: 59px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.stats{
+		position: absolute;
+		height: 25px;
+		width: 73px;
+		left: 111px;
+		top: 8px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 12px;
+		letter-spacing: 0em;
+		text-align: center;
+	}
+	.date{
+		position: absolute;
+		height: 22px;
+		width: 94px;
+		left: 11px;
+		top: 6px;
+		border-radius: 20px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.titles{
+		position: absolute;
+		height: 23px;
+		width: 70px;
+		left: 10px;
+		top: 0px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 7px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 21px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	#titles-download{
+		position: absolute;
+		height: 23px;
+		width: 27px;
+		left: 10px;
+		top: 0px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 7px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 21px;
+		letter-spacing: 0em;
+		text-align: left;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.bi-chevron-down{
+		position: absolute;
+		height: 7.5px;
+		width: 13.5px;
+		left: 74.25px;
+		top: 7.25px;
+		border-radius: 0px;
+	}
+	.share{
+		position: absolute;
+		height: 20px;
+		width: 56px;
+		left: 181px;
+		top: 6px;
+		border-radius: 20px;
+		box-shadow: 0px 4px 4px 0px #000000E5;
+	}
+	.bi-share{
+		position: absolute;
+		height: 11.49996566772461px;
+		width: 19.5px;
+		left: 32.25px;
+		top: 4.25px;
+		border-radius: 0px;
+	}
+	.download{
+		position: absolute;
+		height: 19px;
+		width: 54px;
+		left: 241px;
+		top: 6px;
+		border-radius: 20px;
+		box-shadow: 0px 4px 4px 0px #000000E5;
+	}
+	.bi-download{
+		position: absolute;
+		height: 11.497576px;
+		width: 10.502033px;
+		left: 39.244629px;
+		top: 5.25244140625px;
+		border-radius: 0px;
+	}
+	.option{
+		position: absolute;
+		height: 235px;
+		width: 299px;
+		left: 85px;
+		top: 336px;
+		border-radius: 59px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.option-2{
+		position: absolute;
+		height: 235px;
+		width: 299px;
+		left: 0px;
+		top: 0px;
+		border-radius: 59px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.text{
+		position: absolute;
+		height: 34px;
+		width: 136px;
+		left: 29px;
+		top: 11px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.text-2{
+		position: absolute;
+		height: 34px;
+		width: 65px;
+		left: 74px;
+		top: 13px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 8px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.icons{
+		position: absolute;
+		height: 24px;
+		width: 92px;
+		left: 181px;
+		top: 14px;
+		border-radius: 0px;
+	}
+	.share-2{
+		position: absolute;
+		height: 12px;
+		width: 12px;
+		left: 45px;
+		top: 12px;
+		border-radius: 0px;
+	}
+	.bi-share-2{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 12px;
+		height: 12px;
+	}
+	.download-2{
+		position: absolute;
+		height: 12px;
+		width: 12px;
+		left: 60px;
+		top: 12px;
+		border-radius: 0px;
+	}
+	.bi-download-2{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 12px;
+		height: 12px;
+	}
+	.settings-2{
+		position: absolute;
+		height: 12px;
+		width: 12px;
+		left: 75px;
+		top: 12px;
+		border-radius: 0px;
+	}
+	.bi-gear-2{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 12px;
+		height: 12px;
+	}
+	.line{
+		position: absolute;
+		height: 0px;
+		width: 242.003303px;
+		left: 29px;
+		top: 41px;
+		border-radius: 0px;
+	}
+	.option-chart{
+		position: absolute;
+		width: 270px;
+		height: 196px;
+		left: 10px;
+		top: 39px;
+	}
+	#myChart{
+		position: relative;
+		display: block !important;
+		box-sizing: border-box !important;
+		width: 300px !important;
+		height: 197px !important;
+		left: 0px;
+		top: -9px;
+	}
+	.news{
+		position: absolute;
+		height: 235px;
+		width: 299px;
+		left: 85px;
+		top: 586px;
+		border-radius: 59px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.news-2{
+		position: absolute;
+		height: 235px;
+		width: 299px;
+		left: 0px;
+		top: 0px;
+		border-radius: 59px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.news-text{
+		position: absolute;
+		height: 34px;
+		width: 90px;
+		left: 31px;
+		top: 9px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.news-icons{
+		position: absolute;
+		height: 24px;
+		width: 92px;
+		left: 178px;
+		top: 13px;
+		border-radius: 0px;
+	}
+	.share-3{
+		position: absolute;
+		height: 12px;
+		width: 12px;
+		left: 44px;
+		top: 12px;
+		border-radius: 0px;
+	}
+	.bi-share-3{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 12px;
+		height: 12px;
+	}
+	.download-3{
+		position: absolute;
+		height: 12px;
+		width: 12px;
+		left: 61px;
+		top: 12px;
+		border-radius: 0px;
+	}
+	.bi-download-3{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 12px;
+		height: 12px;
+	}
+	.settings-3{
+		position: absolute;
+		height: 12px;
+		width: 12px;
+		left: 77px;
+		top: 12px;
+		border-radius: 0px;
+	}
+	.bi-gear-3{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 12px;
+		height: 12px;
+	}
+	.news-vector{
+		position: absolute;
+		display: none;
+		left: 281px;
+		top: 50px;
+		border-radius: 45px;
+		width: 11px;
+		height: 148px;
+		border: 1px solid #FFFFFF;
+		box-shadow: 0px 4px 90px 0px #000000;
+		background: #FFFFFF;
+	}
+	.news-line{
+		position: absolute;
+		height: 0px;
+		width: 241.003303px;
+		left: 29px;
+		top: 39px;
+		border-radius: 0px;
+	}
+	.news-article1{
+		position: absolute;
+		left: 27px;
+		top: 54px;
+		border-bottom: 1px solid #000000;
+		width: 244px;
+		height: 47px;
+		overflow: hidden;
+	}
+	#cGFapKTwURRRmS2T{
+		background: url('TheMachine Images/Background color.png');
+	}
+	.news-article2{
+		position: absolute;
+		left: 27px;
+		top: 107px;
+		border-bottom: 1px solid #FFFFFF;
+		width: 245px;
+		height: 47px;
+		overflow: hidden;
+	}
+	.news-article3{
+		position: absolute;
+		left: 27px;
+		top: 161px;
+		border-bottom: 1px solid #FFFFFF;
+		width: 245px;
+		height: 47px;
+		overflow: hidden;
+	}
+	.news-article4{
+		position: absolute;
+		display: none;
+		left: 27px;
+		top: 289px;
+		border-bottom: 1px solid #FFFFFF;
+		width: 289px;
+		height: 54px;
+		overflow: hidden;
+	}
+	.news-article5{
+		position: absolute;
+		display: none;
+		left: 27px;
+		top: 353px;
+		border-bottom: 1px solid #FFFFFF;
+		width: 403px;
+		height: 54px;
+		overflow: hidden;
+	}
+	.news-article6{
+		position: absolute;
+		display: none;
+		left: 27px;
+		top: 413px;
+		border-bottom: 1px solid #FFFFFF;
+		width: 403px;
+		height: 54px;
+		overflow: hidden;
+	}
+	.chart{
+		position: absolute;
+		height: 521px;
+		width: 299px;
+		left: 85px;
+		top: 835px;
+		border-radius: 59px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.chart-2{
+		position: absolute;
+		height: 521px;
+		width: 299px;
+		left: 0px;
+		top: 0px;
+		border-radius: 59px;
+		box-shadow: 4px 4px 4px 4px rgb( 0 0 0 / 25%);
+	}
+	.chart-text{
+		position: absolute;
+		height: 28px;
+		width: 114px;
+		left: 24px;
+		top: 21px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.chart-icons{
+		position: absolute;
+		height: 24px;
+		width: 92px;
+		left: 187px;
+		top: 21px;
+		border-radius: 0px;
+	}
+	.share-4{
+		position: absolute;
+		height: 12px;
+		width: 12px;
+		left: 45px;
+		top: 12px;
+		border-radius: 0px;
+	}
+	.bi-share-4{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 12px;
+		height: 12px;
+	}
+	.download-4{
+		position: absolute;
+		height: 12px;
+		width: 12px;
+		left: 62px;
+		top: 12px;
+		border-radius: 0px;
+	}
+	.bi-download-4{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 12px;
+		height: 12px;
+	}
+	.settings-4{
+		position: absolute;
+		height: 12px;
+		width: 12px;
+		left: 77px;
+		top: 12px;
+		border-radius: 0px;
+	}
+	.bi-gear-4{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 12px;
+		height: 12px;
+	}
+	.chart-line{
+		position: absolute;
+		height: 0px;
+		width: 256px;
+		left: 23px;
+		top: 47.73px;
+		border-radius: 0px;
+	}
+	.chart-info{
+		position: absolute;
+		left: 24px;
+		top: 78px;
+		width: 255px;
+		height: 32px;
+		border: 1px solid #FFFFFF;
+	}
+	.chart-no{
+		position: absolute;
+		font-size: 10px;
+		left: 11px;
+		top: 9px;
+	}
+	.artist{
+		position: absolute;
+		font-size: 10px;
+		left: 50px;
+		top: 9px;
+	}
+	.track{
+		position: absolute;
+		font-size: 10px;
+		left: 100px;
+		top: 9px;
+	}
+	.track-id{
+		position: absolute;
+		font-size: 10px;
+		left: 150px;
+		top: 9px;
+	}
+	.artist-score{
+		position: absolute;
+		font-size: 10px;
+		left: 214px;
+		top: 0px;
+	}
+	.chart-box{
+		position: absolute;
+		left: 24px;
+		top: 126px;
+		width: 253px;
+		height: 341px;
+		border: 1px solid #FFFFFF;
+		border-radius: 31px;
+	}
+	.track-no{
+		padding-left: 0px;
+	}
+	.track-artist{
+		padding-left: 28px;
+	}
+	.track-name{
+		padding-left: 18px;
+	}
+	.track-001{
+		padding-left: 16px;
+	}
+	.score{
+		padding-left: 35px;
+	}
+	.tracks{
+		position: absolute;
+		width: 611px;
+		height: 40px;
+		margin-left: 1.5em;
+		top: 13px;
+		font-size: 10px;
+		font-family: poppins;
+		font-weight: 700;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.track-1{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 251px;
+		height: 54px;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	.track-2{
+		position: absolute;
+		left: 0px;
+		top: 55px;
+		width: 251px;
+		height: 54px;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	.track-3{
+		position: absolute;
+		left: 0px;
+		top: 110px;
+		width: 251px;
+		height: 54px;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	.track-4{
+		position: absolute;
+		left: 0px;
+		top: 165px;
+		width: 251px;
+		height: 54px;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	.track-5{
+		position: absolute;
+		left: 0px;
+		top: 221px;
+		width: 251px;
+		height: 54px;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	.track-6{
+		position: absolute;
+		left: 0px;
+		top: 277px;
+		width: 251px;
+		height: 54px;
+	}
+	.pagination{
+		position: absolute;
+		height: 23px;
+		width: 79px;
+		left: 95px;
+		top: 473px;
+		border-radius: 0px;
+	}
+	.left-arrow-chevron{
+		position: absolute;
+		height: 24px;
+		width: 24px;
+		left: 26px;
+		top: 5px;
+		border-radius: 0px;
+	}
+	.bi-chevron-double-left{
+		position: absolute;
+		width: 12px;
+		height: 17px;
+		left: 0px;
+		top: 0px;
+	}
+	.one{
+		position: absolute;
+		height: 20px;
+		width: 11px;
+		left: 47px;
+		top: 0px;
+		border-radius: 0px;
+		font-size: 17px;
+	}
+	.right-arrow-chevron{
+		position: absolute;
+		height: 24px;
+		width: 24px;
+		left: 64px;
+		top: 5px;
+		border-radius: 0px;
+	}
+	.bi-chevron-double-right{
+		position: absolute;
+		width: 12px;
+		height: 17px;
+		left: 0px;
+		top: 0px;
+	}
+	.chart-vector{
+		position: absolute;
+		left: 284px;
+		display: none;
+		top: 69px;
+		width: 8px;
+		height: 398px;
+		border-radius: 45px;
+		border: 1px solid #FFFFFF;
+		box-shadow: 0px 4px 90px 0px #000000;
+		background: #FFFFFF;
+	}
+	.commercial{
+		position: absolute;
+		height: 235px;
+		width: 299px;
+		left: 82px;
+		top: 1371px;
+		border-radius: 59px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.commercial-2{
+		position: absolute;
+		height: 235px;
+		width: 299px;
+		left: 0px;
+		top: 0px;
+		border-radius: 59px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.commercial-text{
+		position: absolute;
+		height: 33px;
+		width: 120px;
+		left: 30px;
+		top: 11px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.commercial-icons{
+		position: absolute;
+		height: 24px;
+		width: 92px;
+		left: 172px;
+		top: 12px;
+		border-radius: 0px;
+	}
+	.share-5{
+		position: absolute;
+		height: 12px;
+		width: 12px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.bi-share-5{
+		position: absolute;
+		left: 48px;
+		top: 13px;
+		width: 12px;
+		height: 12px;
+	}
+	.download-5{
+		position: absolute;
+		height: 12px;
+		width: 12px;
+		left: 63px;
+		top: 13px;
+		border-radius: 0px;
+	}
+	.bi-download-5{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 12px;
+		height: 12px;
+	}
+	.settings-5{
+		position: absolute;
+		height: 12px;
+		width: 12px;
+		left: 78px;
+		top: 13px;
+		border-radius: 0px;
+	}
+	.bi-gear-5{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 12px;
+		height: 12px;
+	}
+	.comm-chart{
+		position: absolute;
+		left: 22px;
+		top: 36px;
+		width: 210px;
+		height: 195px;
+	}
+	#commChart{
+		position: absolute;
+		display: block !important;
+		box-sizing: border-box !important;
+		left: 0px;
+		top: 0px;
+		width: 234px !important;
+		height: 200px !important;
+	}
+	.commercial-vector{
+		position: absolute;
+		display: none;
+		height: 140px;
+		width: 11px;
+		left: 282px;
+		top: 58px;
+		border-radius: 10px;
+		border: 1px solid #FFFFFF;
+		box-shadow: 0px 4px 90px 0px #000000;
+		background: #FFFFFF;
+	}
+	.commercial-line{
+		position: absolute;
+		height: 0px;
+		width: 237px;
+		left: 28px;
+		top: 39px;
+		border-radius: 0px;
+	}
+	.audience{
+		position: absolute;
+		height: 235px;
+		width: 299px;
+		left: 82px;
+		top: 1620px;
+		border-radius: 74px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.audience-2{
+		position: absolute;
+		height: 235px;
+		width: 299px;
+		left: 0px;
+		top: 0px;
+		border-radius: 74px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.audience-text{
+		position: absolute;
+		height: 33px;
+		width: 120px;
+		left: 32px;
+		top: 17px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.audience-icons{
+		position: absolute;
+		height: 24px;
+		width: 92px;
+		left: 173px;
+		top: 18px;
+		border-radius: 0px;
+	}
+	.share-6{
+		position: absolute;
+		height: 12px;
+		width: 12px;
+		left: 47px;
+		top: 12px;
+		border-radius: 0px;
+	}
+	.bi-share-6{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 12px;
+		height: 12px;
+	}
+	.download-6{
+		position: absolute;
+		height: 12px;
+		width: 12px;
+		left: 62px;
+		top: 12px;
+		border-radius: 0px;
+	}
+	.bi-download-6{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 12px;
+		height: 12px;
+	}
+	.settings-6{
+		position: absolute;
+		height: 12px;
+		width: 12px;
+		left: 76px;
+		top: 12px;
+		border-radius: 0px;
+	}
+	.bi-gear-6{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 12px;
+		height: 12px;
+	}
+	.aud-chart{
+		position: absolute;
+		left: 28px;
+		top: 53px;
+		width: 220px;
+		height: 180px;
+	}
+	#audChart{
+		position: absolute;
+		display: block !important;
+		box-sizing: border-box !important;
+		left: 24px;
+		top: 0px;
+		width: 176px !important;
+		height: 176px !important;
+	}
+	.audience-vector{
+		position: absolute;
+		display: none;
+		height: 132px;
+		width: 11px;
+		left: 282px;
+		top: 53px;
+		border-radius: 10px;
+		border: 1px solid #FFFFFF;
+		box-shadow: 0px 4px 90px 0px #000000;
+		background: #FFFFFF;
+	}
+	.audience-line{
+		position: absolute;
+		height: 0px;
+		width: 233px;
+		left: 31px;
+		top: 44px;
+		border-radius: 0px;
+	}
+	.market{
+		position: absolute;
+		height: 235px;
+		width: 299px;
+		left: 82px;
+		top: 1870px;
+		border-radius: 74px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.market-2{
+		position: absolute;
+		height: 235px;
+		width: 299px;
+		left: 0px;
+		top: 0px;
+		border-radius: 74px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.market-text{
+		position: absolute;
+		height: 33px;
+		width: 120px;
+		left: 31px;
+		top: 12px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.market-icons{
+		position: absolute;
+		height: 24px;
+		width: 92px;
+		left: 172px;
+		top: 13px;
+		border-radius: 0px;
+	}
+	.share-7{
+		position: absolute;
+		height: 12px;
+		width: 12px;
+		left: 47px;
+		top: 12px;
+		border-radius: 0px;
+	}
+	.bi-share-7{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 12px;
+		height: 12px;
+	}
+	.download-7{
+		position: absolute;
+		height: 12px;
+		width: 12px;
+		left: 63px;
+		top: 13px;
+		border-radius: 0px;
+	}
+	.bi-download-7{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 12px;
+		height: 12px;
+	}
+	.settings-7{
+		position: absolute;
+		height: 12px;
+		width: 12px;
+		left: 78px;
+		top: 12px;
+		border-radius: 0px;
+	}
+	.bi-gear-7{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 12px;
+		height: 12px;
+	}
+	.mar-chart{
+		position: absolute;
+		left: 24px;
+		top: 39px;
+		width: 195px;
+		height: 185px;
+	}
+	#marChart{
+		position: absolute;
+		display: block !important;
+		box-sizing: border-box !important;
+		left: 0px;
+		top: 0px;
+		width: 243px !important;
+		height: 186px !important;
+	}
+	.market-vector{
+		position: absolute;
+		display: none;
+		height: 132px;
+		width: 11px;
+		left: 283px;
+		top: 51px;
+		border-radius: 10px;
+		border: 1px solid #FFFFFF;
+		box-shadow: 0px 4px 90px 0px #000000;
+		background: #FFFFFF;
+	}
+	.market-line{
+		position: absolute;
+		height: 0px;
+		width: 233px;
+		left: 31px;
+		top: 39px;
+		border-radius: 0px;
+	}
+	.footer{
+		position: absolute;
+		height: 595px;
+		width: 1024px;
+		left: 69px;
+		top: 2155px;
+		border-radius: 0px;
+	}
+	.footer-2{
+		position: absolute;
+		height: 627px;
+		width: 1024px;
+		left: 0px;
+		top: -128px;
+		border-radius: 0px;
+	}
+	.newsletter{
+		position: absolute;
+		height: 200px;
+		width: 275px;
+		left: 23px;
+		top: 109px;
+		border-radius: 10px;
+		background: #0A142F;
+	}
+	.newsletter2{
+		position: absolute;
+		height: 72px;
+		width: 868px;
+		left: 286px;
+		top: 173px;
+		border-radius: 0px;
+	}
+	.font-box{
+		position: absolute;
+		height: 72px;
+		width: 587px;
+		left: 24px;
+		top: 64px;
+		border-radius: 0px;
+	}
+	.newsletter-text{
+		position: absolute;
+		height: 43px;
+		width: 96px;
+		left: -14px;
+		top: 14px;
+		border-radius: 0px;
+		font-family: Playfair Display;
+		font-size: 9px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 43px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.email-box{
+		position: absolute;
+		height: 72px;
+		width: 142px;
+		left: 91px;
+		top: 0px;
+		border-radius: 0px;
+		background: white;
+	}
+	.subscribe{
+		position: absolute;
+		height: 28px;
+		width: 56px;
+		left: 82px;
+		top: 19px;
+		border-radius: 0px;
+		background: #0081FE;
+	}
+	.subscribe-text{
+		position: absolute;
+		height: 24px;
+		width: 70px;
+		left: -5px;
+		top: 3px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 7px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 24px;
+		letter-spacing: 0px;
+		text-align: center;
+		/* background: #FFFFFF; */
+	}
+	.email{
+		color:rgba(43.00000123679638, 61.00000016391277, 81.00000277161598, 1);
+		opacity:0.5;
+		position: absolute;
+		height: 24px;
+		width: 74px;
+		left: 6px;
+		top: 21px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 9px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0px;
+		text-align: left;
+	}
+	.group{
+		position: absolute;
+		height: 160px;
+		width: 270px;
+		left: 25px;
+		top: 494px;
+		border-radius: 0px;
+	}
+	.socials{
+		position: absolute;
+		height: 24px;
+		width: 165px;
+		left: 0px;
+		top: 1px;
+		border-radius: 0px;
+	}
+	.facebook{
+		position: absolute;
+		height: 24px;
+		width: 24px;
+		top: 0px;
+		left: 0px;
+	}
+	.facebook img{
+		height: 24px;
+		width: 24px;
+	}
+	.twitter{
+		position: absolute;
+		height: 24px;
+		width: 24px;
+		top: 0px;
+		left: 42px;
+	}
+	.twitter img{
+		height: 20px;
+		width: 21px;
+	}
+	.youtube{
+		position: absolute;
+		height: 24px;
+		width: 24px;
+		top: 0px;
+		left: 87px;
+	}
+	.youtube img{
+		height: 26px;
+		width: 24px;
+	}
+	.instagram{
+		position: absolute;
+		height: 24px;
+		width: 24px;
+		top: 0px;
+		left: 130px;
+	}
+	.instagram img{
+		height: 24px;
+		width: 24px;
+	}
+	.links{
+		position: absolute;
+		height: 80px;
+		width: 200px;
+		left: 0px;
+		top: 24px;
+		border-radius: 0px;
+	}
+	.team{
+		position: absolute;
+		height: 24px;
+		width: 71px;
+		left: 0px;
+		top: 61px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.contact{
+		position: absolute;
+		height: 24px;
+		width: 35px;
+		left: 0px;
+		top: 45px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.about-us{
+		position: absolute;
+		height: 24px;
+		width: 68px;
+		left: 0px;
+		top: 15px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.our-products{
+		position: absolute;
+		height: 24px;
+		width: 66px;
+		left: 0px;
+		top: 31px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.group-line{
+		display: none;
+		position: absolute;
+		height: 1px;
+		width: 704px;
+		left: 0px;
+		top: 51px;
+		border-radius: 0px;
+		background: #0A142F;
+		border: 1px solid #2B3D51;
+	}
+	.terms{
+		position: absolute;
+		height: 21px;
+		width: 130px;
+		left: 0px;
+		top: 100px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 21px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.privacy{
+		position: absolute;
+		height: 21px;
+		width: 110px;
+		left: 0px;
+		top: 114px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 21px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.rights{
+		position: absolute;
+		height: 21px;
+		width: 260px;
+		left: 0px;
+		top: 160px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 21px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.company-logo{
+		position: absolute;
+		height: 199px;
+		width: 282px;
+		left: 24px;
+		top: 331px;
+		border-radius: 0px;
+		/*background: url('About us images/rectangle_48.png');*/
+	}
+	.company-logo img{
+		position: absolute;
+		height: 199px;
+		width: 282px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+		/* background: url('About us images/rectangle_48.png'); */
+	}	
 }
-@media screen and (max-width: 768px) {
-	
+@media screen and (min-width:376px) and (max-width:425px) {
+	.glass{
+		position: absolute;
+		width: 320px;
+		height: 100%;
+		left: -22px;
+	}
 }
-@media screen and (max-width: 1024px) {
-
+@media screen and (min-width:426px) and (max-width: 768px) {
+	body{
+		overflow: auto;
+		height: 2320px;
+	}
+	.glass{
+		position: absolute;
+		width: 768px;
+		height: 100%;
+		left: -60px;
+	}
+	.navbar{
+		display: block !important;
+		position: absolute;
+		width: 685px !important;
+		height: 91px;
+		left: 113px;
+		top: 60px;
+		}
+   .logo img {
+	   position: absolute;
+	   width: 100px;
+	   height: 57.6px;
+	   left: 12px;
+	   top: 31px;
+   }
+   .HOME {
+	   position: absolute;
+	   /* width: auto; */
+	   left: 18.17%;
+	   right: 73.12%;
+	   top: 47.25%;
+	   bottom: 15.38%;
+	   font-family: Poppins;
+	   font-style: normal;
+	   font-weight: bold;
+	   font-size: 17px;
+	   line-height: 40px;
+	   color: #FFFFFF;
+   }
+   .ARTIST {
+	   position: absolute;
+	   /* width: 60px; */
+	   /* height: 35px; */
+	   left: 29.37%;
+	   right: 61.17%;
+	   top: 47.25%;
+	   bottom: 15.38%;
+	   font-family: Poppins;
+	   font-style: normal;
+	   font-weight: bold;
+	   font-size: 17px;
+	   line-height: 40px;
+	   color: #FFFFFF;
+   }
+   .ABOUTUS {
+	   position: absolute;
+	   width: 83px;
+	   height: 35px;
+	   left: 40.52%;
+	   right: 44.77%;
+	   top: 47.25%;
+	   bottom: 15.38%;
+	   font-family: Poppins;
+	   font-style: normal;
+	   font-weight: bold;
+	   font-size: 17px;
+	   line-height: 40px;
+	   color: #FFFFFF;
+   }
+   .search-bar {
+	   position: absolute;
+	   left: 54.56%;
+	   right: 25.59%;
+	   top: 51.45%;
+	   bottom: 13.19%;
+	   border: 3px solid #FFFFFF;
+	   box-sizing: border-box;
+	   border-radius: 10px;
+	   width: 107.88px;
+	   height: 28.02px;
+   }
+   .search-icon {
+	   position: absolute;
+	   left: 76.54%;
+	   right: 26.67%;
+	   top: -5.45%;
+	   bottom: 13.19%;
+	   height: 24px;
+	   width: 19.10626220703125px;
+	   border-radius: 0px;
+   }
+   #search-bar{
+	   position: absolute;
+	   left: 8px;
+	   top: -2px;
+	   background: #ffffff00;
+	   border: #ffffff00;
+	   border-radius: 45px;
+	   font-family: 'Poppins';
+	   font-size: 19px;
+	   font-weight: 700;
+   }
+   .bi-search {
+	   position: absolute;
+	   left: 0;
+	   right: 0;
+	   top: 0;
+	   bottom: 0;
+	   height: 24px;
+	   width: 19.106262px;
+   }
+   .rec{
+	   position: absolute;
+	   width: 76.57px;
+	   height: 32px;
+	   left: 507px;
+	   top: 47.76%;
+	   bottom: 13.19%;
+	   background: #6484B4;
+	   border-radius: 10px;
+   }
+   .SignIn {
+	   position: absolute;
+	   bottom: 19.78%;
+	   font-family: Poppins;
+	   font-style: normal;
+	   font-weight: bold;
+	   font-size: 17px;
+	   line-height: 40px;
+	   color: #FFFFFF;
+	   width: 94.94293212890625px;
+	   left: 12px;
+	   top: -5px;
+	   border-radius: 0px;
+   }
+   .rec2 {
+	   position: absolute;
+	   width: 75.57px;
+	   height: 33px;
+	   left: 593px;
+	   right: 12.16%;
+	   top: 46.96%;
+	   bottom: 13.19%;
+	   background: #7E81D1;
+	   border-radius: 10px;
+   }
+   .SignUP {
+	   position: absolute;
+	   left: 8px;
+	   right: 12.43%;
+	   bottom: 15.38%;
+	   font-family: Poppins;
+	   font-style: normal;
+	   font-weight: bold;
+	   font-size: 17px;
+	   line-height: 40px;
+	   color: #FFFFFF;
+	   height: 30px;
+	   width: auto;
+	   top: -4px;
+	   border-radius: 0px;
+   }
+   .closebtn{
+	   display: none;
+   }
+   .nav-menu{
+	   display: none;
+   }
+	.headline{
+		position: absolute;
+		height: 49px;
+		width: 660px;
+		left: 95px;
+		top: 208px;
+		border-radius: 0px;
+	}
+	.headline-1{
+		position: absolute;
+		height: 49px;
+		width: 660px;
+		left: 0px;
+		top: 0px;
+		font-family: Poppins;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 54px;
+		letter-spacing: -1px;
+		text-align: left;
+	}
+	.detail-bar{
+		position: absolute;
+		height: 46px;
+		width: 721px;
+		left: 86px;
+		top: 273px;
+		border-radius: 59px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.stats{
+		position: absolute;
+		height: 40px;
+		width: 228px;
+		left: 220px;
+		top: 6px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 15px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: center;
+	}
+	.date{
+		position: absolute;
+		height: 32px;
+		width: 184px;
+		left: 11px;
+		top: 6px;
+		border-radius: 20px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.titles{
+		position: absolute;
+		height: 23px;
+		width: 160px;
+		left: 25px;
+		top: 5px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 21px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.bi-chevron-down{
+		position: absolute;
+		height: 7.5px;
+		width: 13.5px;
+		left: 156.25px;
+		top: 11.25px;
+		border-radius: 0px;
+	}
+	.share{
+		position: absolute;
+		height: 30px;
+		width: 112px;
+		left: 447px;
+		top: 6px;
+		border-radius: 20px;
+		box-shadow: 0px 4px 4px 0px #000000E5;
+	}
+	.bi-share{
+		position: absolute;
+		height: 21.49996566772461px;
+		width: 19.5px;
+		left: 75.25px;
+		top: 4.25px;
+		border-radius: 0px;
+	}
+	.download{
+		position: absolute;
+		height: 30px;
+		width: 148px;
+		left: 566px;
+		top: 6px;
+		border-radius: 20px;
+		box-shadow: 0px 4px 4px 0px #000000E5;
+	}
+	.bi-download{
+		position: absolute;
+		height: 19.497575759887695px;
+		width: 23.502033233642578px;
+		left: 111.24462890625px;
+		top: 5.25244140625px;
+		border-radius: 0px;
+	}
+	.option{
+		position: absolute;
+		height: 344px;
+		width: 355px;
+		left: 85px;
+		top: 336px;
+		border-radius: 102px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.option-2{
+		position: absolute;
+		height: 344px;
+		width: 355px;
+		left: 0px;
+		top: 0px;
+		border-radius: 102px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.text{
+		position: absolute;
+		height: 34px;
+		width: 136px;
+		left: 38px;
+		top: 37px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 17px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.text-2{
+		position: absolute;
+		height: 34px;
+		width: 65px;
+		left: 114px;
+		top: 39px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.icons{
+		position: absolute;
+		height: 24px;
+		width: 57px;
+		left: 262px;
+		top: 41px;
+		border-radius: 0px;
+	}
+	.share-2{
+		position: absolute;
+		height: 15px;
+		width: 15px;
+		left: 4px;
+		top: 9px;
+		border-radius: 0px;
+	}
+	.bi-share-2{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+	}
+	.download-2{
+		position: absolute;
+		height: 15px;
+		width: 15px;
+		left: 23px;
+		top: 9px;
+		border-radius: 0px;
+	}
+	.bi-download-2{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+	}
+	.settings-2{
+		position: absolute;
+		height: 15px;
+		width: 15px;
+		left: 41px;
+		top: 9px;
+		border-radius: 0px;
+	}
+	.bi-gear-2{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+	}
+	.line{
+		position: absolute;
+		height: 0px;
+		width: 282.003303px;
+		left: 39px;
+		top: 67px;
+		border-radius: 0px;
+	}
+	.option-chart{
+		position: absolute;
+		width: 340px;
+		height: 280px;
+		left: 10px;
+		top: 61px;
+	}
+	#myChart{
+		position: relative;
+		display: block !important;
+		box-sizing: border-box !important;
+		width: 340px !important;
+		height: 270px !important;
+		left: 0px;
+		top: -9px;
+	}
+	.news{
+		position: absolute;
+		height: 344px;
+		width: 355px;
+		left: 450px;
+		top: 336px;
+		border-radius: 102px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.news-2{
+		position: absolute;
+		height: 344px;
+		width: 355px;
+		left: 0px;
+		top: 0px;
+		border-radius: 102px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.news-text{
+		position: absolute;
+		height: 34px;
+		width: 90px;
+		left: 35px;
+		top: 32px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 17px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.news-icons{
+		position: absolute;
+		height: 24px;
+		width: 53px;
+		left: 267px;
+		top: 40px;
+		border-radius: 0px;
+	}
+	.share-3{
+		position: absolute;
+		height: 15px;
+		width: 15px;
+		left: 0px;
+		top: 8px;
+		border-radius: 0px;
+	}
+	.bi-share-3{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+	}
+	.download-3{
+		position: absolute;
+		height: 15px;
+		width: 15px;
+		left: 19px;
+		top: 8px;
+		border-radius: 0px;
+	}
+	.bi-download-3{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+	}
+	.settings-3{
+		position: absolute;
+		height: 15px;
+		width: 15px;
+		left: 36px;
+		top: 8px;
+		border-radius: 0px;
+	}
+	.bi-gear-3{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+	}
+	.news-vector{
+		position: absolute;
+		left: 337px;
+		top: 87px;
+		border-radius: 45px;
+		width: 11px;
+		height: 191px;
+		border: 1px solid #FFFFFF;
+		box-shadow: 0px 4px 90px 0px #000000;
+		background: #FFFFFF;
+	}
+	.news-line{
+		position: absolute;
+		height: 0px;
+		width: 285.003303px;
+		left: 35px;
+		top: 66px;
+		border-radius: 0px;
+	}
+	.news-article1{
+		position: absolute;
+		left: 27px;
+		top: 97px;
+		border-bottom: 1px solid #000000;
+		width: 289px;
+		height: 54px;
+		overflow: hidden;
+	}
+	#cGFapKTwURRRmS2T{
+		background: url('TheMachine Images/Background color.png');
+	}
+	.news-article2{
+		position: absolute;
+		left: 27px;
+		top: 161px;
+		border-bottom: 1px solid #FFFFFF;
+		width: 289px;
+		height: 54px;
+		overflow: hidden;
+	}
+	.news-article3{
+		position: absolute;
+		left: 27px;
+		top: 225px;
+		border-bottom: 1px solid #FFFFFF;
+		width: 289px;
+		height: 54px;
+		overflow: hidden;
+	}
+	.news-article4{
+		position: absolute;
+		display: none;
+		left: 27px;
+		top: 289px;
+		border-bottom: 1px solid #FFFFFF;
+		width: 289px;
+		height: 54px;
+		overflow: hidden;
+	}
+	.news-article5{
+		position: absolute;
+		display: none;
+		left: 27px;
+		top: 353px;
+		border-bottom: 1px solid #FFFFFF;
+		width: 403px;
+		height: 54px;
+		overflow: hidden;
+	}
+	.news-article6{
+		position: absolute;
+		display: none;
+		left: 27px;
+		top: 413px;
+		border-bottom: 1px solid #FFFFFF;
+		width: 403px;
+		height: 54px;
+		overflow: hidden;
+	}
+	.chart{
+		position: absolute;
+		height: 563px;
+		width: 730px;
+		left: 85px;
+		top: 694px;
+		border-radius: 102px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.chart-2{
+		position: absolute;
+		height: 563px;
+		width: 730px;
+		left: 0px;
+		top: 0px;
+		border-radius: 102px;
+		box-shadow: 4px 4px 4px 4px rgb( 0 0 0 / 25%);
+	}
+	.chart-text{
+		position: absolute;
+		height: 28px;
+		width: 114px;
+		left: 46px;
+		top: 55px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 17px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.chart-icons{
+		position: absolute;
+		height: 24px;
+		width: 53px;
+		left: 634px;
+		top: 64px;
+		border-radius: 0px;
+	}
+	.share-4{
+		position: absolute;
+		height: 15px;
+		width: 15px;
+		left: 0px;
+		top: 8px;
+		border-radius: 0px;
+	}
+	.bi-share-4{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+	}
+	.download-4{
+		position: absolute;
+		height: 15px;
+		width: 15px;
+		left: 19px;
+		top: 9px;
+		border-radius: 0px;
+	}
+	.bi-download-4{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+	}
+	.settings-4{
+		position: absolute;
+		height: 15px;
+		width: 15px;
+		left: 37px;
+		top: 9px;
+		border-radius: 0px;
+	}
+	.bi-gear-4{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+	}
+	.chart-line{
+		position: absolute;
+		height: 0px;
+		width: 643px;
+		left: 46px;
+		top: 89.73px;
+		border-radius: 0px;
+	}
+	.chart-info{
+		position: absolute;
+		left: 49px;
+		top: 117px;
+		width: 639px;
+		height: 32px;
+		border: 1px solid #FFFFFF;
+	}
+	.chart-no{
+		position: absolute;
+		left: 28px;
+		top: 0px;
+	}
+	.artist{
+		position: absolute;
+		left: 150px;
+		top: 0px;
+	}
+	.track{
+		position: absolute;
+		left: 272px;
+		top: 0px;
+	}
+	.track-id{
+		position: absolute;
+		left: 394px;
+		top: 0px;
+	}
+	.artist-score{
+		position: absolute;
+		left: 516px;
+		top: 0px;
+	}
+	.chart-box{
+		position: absolute;
+		left: 49px;
+		top: 170px;
+		width: 639px;
+		height: 341px;
+		border: 1px solid #FFFFFF;
+		border-radius: 45px;
+	}
+	.track-no{
+		padding-left: 0px;
+	}
+	.track-artist{
+		padding-left: 112px;
+	}
+	.track-name{
+		padding-left: 65px;
+	}
+	.track-001{
+		padding-left: 63px;
+	}
+	.artist-track{
+		padding-left: 98px;
+	}
+	.score{
+		padding-left: 94px;
+	}
+	.tracks{
+		position: absolute;
+		width: 611px;
+		height: 40px;
+		margin-left: 1.5em;
+		top: 13px;
+		font-size: 17px;
+		font-family: poppins;
+		font-weight: 700;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.track-1{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 638px;
+		height: 54px;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	.track-2{
+		position: absolute;
+		left: 0px;
+		top: 55px;
+		width: 638px;
+		height: 54px;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	.track-3{
+		position: absolute;
+		left: 0px;
+		top: 110px;
+		width: 638px;
+		height: 54px;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	.track-4{
+		position: absolute;
+		left: 0px;
+		top: 165px;
+		width: 638px;
+		height: 54px;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	.track-5{
+		position: absolute;
+		left: 0px;
+		top: 221px;
+		width: 638px;
+		height: 54px;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	.track-6{
+		position: absolute;
+		left: 0px;
+		top: 277px;
+		width: 638px;
+		height: 54px;
+	}
+	.pagination{
+		position: absolute;
+		height: 23px;
+		width: 79px;
+		left: 49px;
+		top: 525px;
+		border-radius: 0px;
+	}
+	.left-arrow-chevron{
+		position: absolute;
+		height: 24px;
+		width: 24px;
+		left: 26px;
+		top: 5px;
+		border-radius: 0px;
+	}
+	.bi-chevron-double-left{
+		position: absolute;
+		width: 12px;
+		height: 17px;
+		left: 0px;
+		top: 0px;
+	}
+	.one{
+		position: absolute;
+		height: 20px;
+		width: 11px;
+		left: 47px;
+		top: 0px;
+		border-radius: 0px;
+		font-size: 17px;
+	}
+	.right-arrow-chevron{
+		position: absolute;
+		height: 24px;
+		width: 24px;
+		left: 64px;
+		top: 5px;
+		border-radius: 0px;
+	}
+	.bi-chevron-double-right{
+		position: absolute;
+		width: 12px;
+		height: 17px;
+		left: 0px;
+		top: 0px;
+	}
+	.chart-vector{
+		position: absolute;
+		left: 707px;
+		top: 96px;
+		width: 11px;
+		height: 398px;
+		border-radius: 45px;
+		border: 1px solid #FFFFFF;
+		box-shadow: 0px 4px 90px 0px #000000;
+		background: #FFFFFF;
+	}
+	.commercial{
+		position: absolute;
+		height: 294px;
+		width: 235px;
+		left: 82px;
+		top: 1272px;
+		border-radius: 74px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.commercial-2{
+		position: absolute;
+		height: 296px;
+		width: 235px;
+		left: 0px;
+		top: 0px;
+		border-radius: 74px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.commercial-text{
+		position: absolute;
+		height: 33px;
+		width: 67px;
+		left: 30px;
+		top: 19px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 17px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.commercial-icons{
+		position: absolute;
+		height: 24px;
+		width: 53px;
+		left: 153px;
+		top: 28px;
+		border-radius: 0px;
+	}
+	.share-5{
+		position: absolute;
+		height: 15px;
+		width: 15px;
+		left: 0px;
+		top: 6px;
+		border-radius: 0px;
+	}
+	.bi-share-5{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+	}
+	.download-5{
+		position: absolute;
+		height: 15px;
+		width: 15px;
+		left: 19px;
+		top: 6px;
+		border-radius: 0px;
+	}
+	.bi-download-5{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+	}
+	.settings-5{
+		position: absolute;
+		height: 15px;
+		width: 15px;
+		left: 37px;
+		top: 6px;
+		border-radius: 0px;
+	}
+	.bi-gear-5{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+	}
+	.comm-chart{
+		position: absolute;
+		left: 0px;
+		top: 53px;
+		width: 210px;
+		height: 240px;
+	}
+	#commChart{
+		position: absolute;
+		display: block !important;
+		box-sizing: border-box !important;
+		left: 0px;
+		top: 0px;
+		width: 204px !important;
+		height: 208px !important;
+	}
+	.commercial-vector{
+		position: absolute;
+		height: 174px;
+		width: 11px;
+		left: 220px;
+		top: 61px;
+		border-radius: 10px;
+		border: 1px solid #FFFFFF;
+		box-shadow: 0px 4px 90px 0px #000000;
+		background: #FFFFFF;
+	}
+	.commercial-line{
+		position: absolute;
+		height: 0px;
+		width: 179px;
+		left: 28px;
+		top: 51px;
+		border-radius: 0px;
+	}
+	.audience{
+		position: absolute;
+		height: 294px;
+		width: 235px;
+		left: 326px;
+		top: 1272px;
+		border-radius: 74px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.audience-2{
+		position: absolute;
+		height: 294px;
+		width: 235px;
+		left: 0px;
+		top: 0px;
+		border-radius: 74px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.audience-text{
+		position: absolute;
+		height: 33px;
+		width: 55px;
+		left: 31px;
+		top: 19px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 17px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.audience-icons{
+		position: absolute;
+		height: 24px;
+		width: 53px;
+		left: 149px;
+		top: 23px;
+		border-radius: 0px;
+	}
+	.share-6{
+		position: absolute;
+		height: 15px;
+		width: 15px;
+		left: 0px;
+		top: 8px;
+		border-radius: 0px;
+	}
+	.bi-share-6{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+	}
+	.download-6{
+		position: absolute;
+		height: 15px;
+		width: 15px;
+		left: 19px;
+		top: 8px;
+		border-radius: 0px;
+	}
+	.bi-download-6{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+	}
+	.settings-6{
+		position: absolute;
+		height: 15px;
+		width: 15px;
+		left: 37px;
+		top: 8px;
+		border-radius: 0px;
+	}
+	.bi-gear-6{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+	}
+	.aud-chart{
+		position: absolute;
+		left: 18px;
+		top: 53px;
+		width: 197px;
+		height: 240px;
+	}
+	.audChart{
+		position: absolute;
+		left: 24px;
+		top: 53px;
+		width: 324px;
+		height: 323px;
+	}
+	.audience-vector{
+		position: absolute;
+		height: 174px;
+		width: 11px;
+		left: 218px;
+		top: 65px;
+		border-radius: 10px;
+		border: 1px solid #FFFFFF;
+		box-shadow: 0px 4px 90px 0px #000000;
+		background: #FFFFFF;
+	}
+	.audience-line{
+		position: absolute;
+		height: 0px;
+		width: 174px;
+		left: 31px;
+		top: 50px;
+		border-radius: 0px;
+	}
+	.market{
+		position: absolute;
+		height: 294px;
+		width: 235px;
+		left: 569px;
+		top: 1272px;
+		border-radius: 74px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.market-2{
+		position: absolute;
+		height: 294px;
+		width: 235px;
+		left: 0px;
+		top: 0px;
+		border-radius: 74px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.market-text{
+		position: absolute;
+		height: 33px;
+		width: 60px;
+		left: 31px;
+		top: 20px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 17px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.market-icons{
+		position: absolute;
+		height: 24px;
+		width: 52px;
+		left: 153px;
+		top: 24px;
+		border-radius: 0px;
+	}
+	.share-7{
+		position: absolute;
+		height: 15px;
+		width: 15px;
+		left: 0px;
+		top: 8px;
+		border-radius: 0px;
+	}
+	.bi-share-7{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+	}
+	.download-7{
+		position: absolute;
+		height: 15px;
+		width: 15px;
+		left: 19px;
+		top: 8px;
+		border-radius: 0px;
+	}
+	.bi-download-7{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+	}
+	.settings-7{
+		position: absolute;
+		height: 15px;
+		width: 15px;
+		left: 36px;
+		top: 8px;
+		border-radius: 0px;
+	}
+	.bi-gear-7{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+	}
+	.mar-chart{
+		position: absolute;
+		left: 24px;
+		top: 50px;
+		width: 181px;
+		height: 240px;
+	}
+	#marChart{
+		position: absolute;
+		display: block !important;
+		box-sizing: border-box !important;
+		left: 0px;
+		top: 0px;
+		width: 181px !important;
+		height: 181px !important;
+	}
+	.market-vector{
+		position: absolute;
+		height: 174px;
+		width: 11px;
+		left: 218px;
+		top: 65px;
+		border-radius: 10px;
+		border: 1px solid #FFFFFF;
+		box-shadow: 0px 4px 90px 0px #000000;
+		background: #FFFFFF;
+	}
+	.market-line{
+		position: absolute;
+		height: 0px;
+		width: 176px;
+		left: 31px;
+		top: 50px;
+		border-radius: 0px;
+	}
+	.footer{
+		position: absolute;
+		height: 595px;
+		width: 1440px;
+		left: 0px;
+		top: 1630px;
+		border-radius: 0px;
+	}
+	.footer-2{
+		position: absolute;
+		height: 627px;
+		width: 1440px;
+		left: 0px;
+		top: -128px;
+		border-radius: 0px;
+	}
+	.newsletter{
+		position: absolute;
+		height: 200px;
+		width: 711px;
+		left: 87px;
+		top: 109px;
+		border-radius: 10px;
+		background: #0A142F;
+	}
+	.newsletter2{
+		position: absolute;
+		height: 72px;
+		width: 868px;
+		left: 286px;
+		top: 173px;
+		border-radius: 0px;
+	}
+	.font-box{
+		position: absolute;
+		height: 72px;
+		width: 587px;
+		left: 52px;
+		top: 64px;
+		border-radius: 0px;
+	}
+	.newsletter-text{
+		position: absolute;
+		height: 43px;
+		width: 261px;
+		left: 0px;
+		top: 14px;
+		border-radius: 0px;
+		font-family: Playfair Display;
+		font-size: 22px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 43px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.email-box{
+		position: absolute;
+		height: 72px;
+		width: 310px;
+		left: 276px;
+		top: 0px;
+		border-radius: 0px;
+		background: white;
+	}
+	.subscribe{
+		position: absolute;
+		height: 56px;
+		width: 100px;
+		left: 199px;
+		top: 8px;
+		border-radius: 0px;
+		background: #0081FE;
+	}
+	.subscribe-text{
+		position: absolute;
+		height: 24px;
+		width: 100px;
+		left: -5px;
+		top: 19px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 11px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 24px;
+		letter-spacing: 0px;
+		text-align: center;
+		/* background: #FFFFFF; */
+	}
+	.email{
+		color:rgba(43.00000123679638, 61.00000016391277, 81.00000277161598, 1);
+		opacity:0.5;	
+		position: absolute;
+		height: 24px;
+		width: 130px;
+		left: 24px;
+		top: 21px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0px;
+		text-align: left;
+	}
+	.group{
+		position: absolute;
+		height: 142px;
+		width: 705px;
+		left: 88px;
+		top: 357px;
+		border-radius: 0px;
+	}
+	.socials{
+		position: absolute;
+		height: 24px;
+		width: 165px;
+		left: 550px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.facebook{
+		position: absolute;
+		height: 29px;
+		width: 32px;
+		top: 0px;
+		left: 0px;
+	}
+	.facebook img{
+		height: 29px;
+		width: 32px;
+		position: absolute;
+		top: -4px;
+	}
+	.twitter{
+		position: absolute;
+		height: 21px;
+		width: 21px;
+		top: 0px;
+		left: 46px;
+	}
+	.twitter img{
+		height: 21px;
+		width: 21px;
+	}
+	.youtube{
+		position: absolute;
+		height: 32px;
+		width: 30px;
+		top: 0px;
+		left: 82px;
+	}
+	.youtube img{
+		height: 32px;
+		width: 30px;
+		position: absolute;
+		top: -5px;
+	}
+	.instagram{
+		position: absolute;
+		height: 23px;
+		width: 24px;
+		top: 0px;
+		left: 125px;
+	}
+	.instagram img{
+		height: 23px;
+		width: 24px;
+	}
+	.links{
+		position: absolute;
+		height: 18px;
+		width: 360px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.team{
+		position: absolute;
+		height: 24px;
+		width: 71px;
+		left: 346px;
+		top: 0px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.contact{
+		position: absolute;
+		height: 24px;
+		width: 66px;
+		left: 238px;
+		top: 0px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.about-us{
+		/* position: absolute; */
+		height: 24px;
+		width: 71px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.our-products{
+		position: absolute;
+		height: 24px;
+		width: 104px;
+		left: 110px;
+		top: 0px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.group-line{
+		position: absolute;
+		height: 1px;
+		width: 704px;
+		left: 0px;
+		top: 51px;
+		border-radius: 0px;
+		background: #0A142F;
+		border: 1px solid #2B3D51;
+	}
+	.terms{
+		position: absolute;
+		height: 21px;
+		width: 130px;
+		left: 486px;
+		top: 97px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 13px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 21px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.privacy{
+		position: absolute;
+		height: 21px;
+		width: 110px;
+		left: 606px;
+		top: 97px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 21px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.rights{
+		position: absolute;
+		height: 21px;
+		width: 328px;
+		left: 0px;
+		top: 99px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 13px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 21px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.company-logo{
+		position: absolute;
+		height: 199px;
+		width: 282px;
+		left: 388px;
+		top: 474px;
+		border-radius: 0px;
+		/*background: url('About us images/rectangle_48.png');*/
+	}
+	.company-logo img{
+		position: absolute;
+		height: 199px;
+		width: 282px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+		/*background: url('About us images/rectangle_48.png');*/	
+	}
 }
-/*GOOGLE CHARTS*/
-.option-chart{
-	position: absolute;
-	width: auto;
-	height: 495px;
-	left: 0px;
-	top: 66px;
-	border-radius: 59px;
+@media screen and (min-width:769px) and (max-width: 1024px) {
+	body{
+		overflow: auto;
+		height: 2478px;
+	}
+	.glass{
+		position: absolute;
+		width: 1050px;
+		height: 100%;
+		left: -54px;
+		top: 0px;
+	}
+	.navbar{
+		display: block !important;
+		position: absolute;
+		width: 783px !important;
+		height: 91px;
+		left: 149px;
+		top: 37px;
+		}
+   .logo img {
+		position: absolute; 
+		width: 100px; 
+		height: 57.6px; 
+		left: 12px;
+		top: 31px; 
+   }
+   .HOME {
+	   position: absolute;
+	   width: auto;
+	   left: 18.17%;
+	   right: 73.12%;
+	   /* top: 4.25%; */
+	   bottom: 15.38%;
+	   font-family: Poppins;
+	   font-style: normal;
+	   font-weight: bold;
+	   font-size: 17px;
+	   line-height: 40px;
+	   color: #FFFFFF;
+   }
+   .ARTIST {
+	   position: absolute;
+	   left: 29.37%;
+	   right: 61.17%;
+	   top: 47.25%;
+	   bottom: 15.38%;
+	   font-family: Poppins;
+	   font-style: normal;
+	   font-weight: bold;
+	   font-size: 17px;
+	   line-height: 40px;
+	   color: #FFFFFF;
+   }
+   .ABOUTUS {
+	   position: absolute;
+	   left: 42.52%;
+	   right: 44.77%;
+	   top: 47.25%;
+	   bottom: 15.38%;
+	   font-family: Poppins;
+	   font-style: normal;
+	   font-weight: bold;
+	   font-size: 17px;
+	   line-height: 40px;
+	   color: #FFFFFF;
+   }
+   .search-bar {
+	   position: absolute;
+	   left: 58.56%;
+	   right: 25.59%;
+	   top: 49.45%;
+	   bottom: 13.19%;
+	   border: 3px solid #FFFFFF;
+	   box-sizing: border-box;
+	   border-radius: 10px;
+	   width: 170.88px;
+	   height: 28.02px;
+   }
+   .search-icon {
+		position: absolute;
+		height: 24px;
+		width: 19px;
+		left: 135px;
+		top: 0px;
+		}
+   .bi-search {
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 24px;
+		width: 19.106262px;
+		}
+   .rec{
+	   position: absolute;
+	   width: 76.57px;
+	   height: 32px;
+	   left: 724.03px;
+	   /*top: 38px;
+	   left: 90.54%;
+	   right: -1.26%;*/
+	   top: 46.76%;
+	   bottom: 13.19%;
+	   background: #6484B4;
+	   border-radius: 10px;
+	  }
+   .SignIn {
+	   position: absolute;
+	   left: 0;
+	   right: -0.25%;
+	   top: 42.86%;
+	   bottom: 19.78%;
+	   font-family: Poppins;
+	   font-style: normal;
+	   font-weight: bold;
+	   font-size: 17px;
+	   line-height: 40px;
+	   color: #FFFFFF;
+	   width: 94.94293212890625px;
+	   left: 15px;
+	   top: 0px;
+	   border-radius: 0px;
+   }
+   .rec2 {
+	   position: absolute;
+	   width: 75.57px;
+	   height: 33px;
+	   left: 831.32px;
+	   top: 40px;
+	   left: 82.12%;
+	   right: 12.16%;
+	   top: 45.76%;
+	   bottom: 13.19%;
+	   background: #7E81D1;
+	   border-radius: 10px;
+	  }
+   .SignUP {
+	   position: absolute;
+	   left: 8px;
+	   right: 12.43%;
+	   top: 42.76%;
+	   bottom: 15.38%;
+	   font-family: Poppins;
+	   font-style: normal;
+	   font-weight: bold;
+	   font-size: 17px;
+	   line-height: 40px;
+	   color: #FFFFFF;
+	   height: 30px;
+	   width: auto;
+	   top: 0px;
+	   border-radius: 0px;
+   }
+   .closebtn{
+	   display: none;
+   }
+   .nav-menu{
+	   display: none;
+   }
+	.headline{
+		position: absolute;
+		height: 49px;
+		width: 1277px;
+		left: 95px;
+		top: 208px;
+		border-radius: 0px;
+	}
+	.headline-1{
+		position: absolute;
+		height: 49px;
+		width: 1277px;
+		left: 0px;
+		top: 0px;
+		font-family: Poppins;
+		font-size: 17px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 54px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.detail-bar{
+		position: absolute;
+		height: 46px;
+		width: 962px;
+		left: 86px;
+		top: 273px;
+		border-radius: 59px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.stats{
+		position: absolute;
+		height: 40px;
+		width: 228px;
+		left: 336px;
+		top: 6px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 17px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: center;
+	}
+	.date{
+		position: absolute;
+		height: 32px;
+		width: 184px;
+		left: 11px;
+		top: 6px;
+		border-radius: 20px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.titles{
+		position: absolute;
+		height: 23px;
+		width: 160px;
+		left: 25px;
+		top: 5px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 21px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.bi-chevron-down{
+		position: absolute;
+		height: 7.5px;
+		width: 13.5px;
+		left: 156.25px;
+		top: 11.25px;
+		border-radius: 0px;
+	}
+	.share{
+		position: absolute;
+		height: 30px;
+		width: 112px;
+		left: 688px;
+		top: 6px;
+		border-radius: 20px;
+		box-shadow: 0px 4px 4px 0px #000000E5;
+	}
+	.bi-share{
+		position: absolute;
+		height: 21.49996566772461px;
+		width: 19.5px;
+		left: 75.25px;
+		top: 4.25px;
+		border-radius: 0px;
+	}
+	.download{
+		position: absolute;
+		height: 30px;
+		width: 148px;
+		left: 806px;
+		top: 6px;
+		border-radius: 20px;
+		box-shadow: 0px 4px 4px 0px #000000E5;
+	}
+	.bi-download{
+		position: absolute;
+		height: 19.497575759887695px;
+		width: 23.502033233642578px;
+		left: 111.24462890625px;
+		top: 5.25244140625px;
+		border-radius: 0px;
+	}
+	.option{
+		position: absolute;
+		height: 392px;
+		width: 474px;
+		left: 85px;
+		top: 336px;
+		border-radius: 102px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.option-2{
+		position: absolute;
+		height: 392px;
+		width: 474px;
+		left: 0px;
+		top: 0px;
+		border-radius: 102px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.text{
+		position: absolute;
+		height: 34px;
+		width: 136px;
+		left: 25px;
+		top: 37px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 17px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.text-2{
+		position: absolute;
+		height: 34px;
+		width: 65px;
+		left: 102px;
+		top: 39px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 10px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.icons{
+		position: absolute;
+		height: 16px;
+		width: 56px;
+		left: 388px;
+		top: 49px;
+		border-radius: 0px;
+	}
+	.share-2{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.bi-share-2{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 16px;
+		height: 16px;
+	}
+	.download-2{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 21px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.bi-download-2{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 16px;
+		height: 16px;
+	}
+	.settings-2{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 40px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.bi-gear-2{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 16px;
+		height: 16px;
+	}
+	.line{
+		position: absolute;
+		height: 0px;
+		width: 424.003303px;
+		left: 23px;
+		top: 67px;
+		border-radius: 0px;
+	}
+	.option-chart{
+		position: absolute;
+		width: 427px;
+		height: 330px;
+		left: 10px;
+		top: 61px;
+	}
+	#myChart{
+		position: relative;
+		display: block !important;
+		box-sizing: border-box !important;
+		width: 453px !important;
+		height: 325px !important;
+		left: 0px;
+		top: 0px;
+	}
+	.news{
+		position: absolute;
+		height: 392px;
+		width: 474px;
+		left: 571px;
+		top: 336px;
+		border-radius: 102px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.news-2{
+		position: absolute;
+		height: 392px;
+		width: 474px;
+		left: 0px;
+		top: 0px;
+		border-radius: 102px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.news-text{
+		position: absolute;
+		height: 34px;
+		width: 50px;
+		left: 35px;
+		top: 32px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 17px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.news-icons{
+		position: absolute;
+		height: 16px;
+		width: 55px;
+		left: 382px;
+		top: 44px;
+		border-radius: 0px;
+	}
+	.share-3{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.bi-share-3{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 16px;
+		height: 16px;
+	}
+	.download-3{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 19px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.bi-download-3{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 16px;
+		height: 16px;
+	}
+	.settings-3{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 37px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.bi-gear-3{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 16px;
+		height: 16px;
+	}
+	.news-vector{
+		position: absolute;
+		left: 454px;
+		top: 87px;
+		border-radius: 45px;
+		width: 11px;
+		height: 232px;
+		border: 1px solid #FFFFFF;
+		box-shadow: 0px 4px 90px 0px #000000;
+		background: #FFFFFF;
+	}
+	.news-line{
+		position: absolute;
+		height: 0px;
+		width: 406.003303px;
+		left: 35px;
+		top: 66px;
+		border-radius: 0px;
+	}
+	.news-article1{
+		position: absolute;
+		left: 27px;
+		top: 97px;
+		border-bottom: 1px solid #000000;
+		width: 403px;
+		height: 54px;
+		overflow: hidden;
+	}
+	#cGFapKTwURRRmS2T{
+		background: url('TheMachine Images/Background color.png');
+	}
+	.news-article2{
+		position: absolute;
+		left: 27px;
+		top: 161px;
+		border-bottom: 1px solid #FFFFFF;
+		width: 403px;
+		height: 54px;
+		overflow: hidden;
+	}
+	.news-article3{
+		position: absolute;
+		left: 27px;
+		top: 225px;
+		border-bottom: 1px solid #FFFFFF;
+		width: 403px;
+		height: 54px;
+		overflow: hidden;
+	}
+	.news-article4{
+		position: absolute;
+		left: 27px;
+		top: 289px;
+		border-bottom: 1px solid #FFFFFF;
+		width: 403px;
+		height: 54px;
+		overflow: hidden;
+	}
+	.news-article5{
+		position: absolute;
+		display: none;
+		left: 27px;
+		top: 353px;
+		border-bottom: 1px solid #FFFFFF;
+		width: 403px;
+		height: 54px;
+		overflow: hidden;
+	}
+	.news-article6{
+		position: absolute;
+		display: none;
+		left: 27px;
+		top: 413px;
+		border-bottom: 1px solid #FFFFFF;
+		width: 403px;
+		height: 54px;
+		overflow: hidden;
+	}
+	.chart{
+		position: absolute;
+		height: 563px;
+		width: 962px;
+		left: 85px;
+		top: 746px;
+		border-radius: 102px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.chart-2{
+		position: absolute;
+		height: 563px;
+		width: 962px;
+		left: 0px;
+		top: 0px;
+		border-radius: 102px;
+		box-shadow: 4px 4px 4px 4px rgb( 0 0 0 / 25%);
+	}
+	.chart-text{
+		position: absolute;
+		height: 28px;
+		width: 114px;
+		left: 46px;
+		top: 55px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 17px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.chart-icons{
+		position: absolute;
+		height: 16px;
+		width: 55px;
+		left: 858px;
+		top: 68px;
+		border-radius: 0px;
+	}
+	.share-4{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.bi-share-4{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 16px;
+		height: 16px;
+	}
+	.download-4{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 20px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.bi-download-4{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 16px;
+		height: 16px;
+	}
+	.settings-4{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 38px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.bi-gear-4{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 16px;
+		height: 16px;
+	}
+	.chart-line{
+		position: absolute;
+		height: 0px;
+		width: 871px;
+		left: 46px;
+		top: 89.73px;
+		border-radius: 0px;
+	}
+	.chart-info{
+		position: absolute;
+		left: 49px;
+		top: 117px;
+		width: 867px;
+		height: 32px;
+		border: 1px solid #FFFFFF;
+	}
+	.chart-no{
+		position: absolute;
+		left: 28px;
+		top: 0px;
+	}
+	.artist{
+		position: absolute;
+		left: 200px;
+		top: 0px;
+	}
+	.track{
+		position: absolute;
+		left: 372px;
+		top: 0px;
+	}
+	.track-id{
+		position: absolute;
+		left: 544px;
+		top: 0px;
+	}
+	.artist-score{
+		position: absolute;
+		left: 716px;
+		top: 0px;
+	}
+	.chart-box{
+		position: absolute;
+		left: 49px;
+		top: 170px;
+		width: 870px;
+		height: 341px;
+		border: 1px solid #FFFFFF;
+		border-radius: 45px;
+	}
+	.track-no{
+		padding-left: 0px;
+	}
+	.track-artist{
+		padding-left: 159px;
+	}
+	.track-name{
+		padding-left: 118px;
+	}
+	.track-001{
+		padding-left: 113px;
+	}
+	.artist-track{
+		padding-left: 148px;
+	}
+	.score{
+		padding-left: 149px;
+	}
+	.tracks{
+		position: absolute;
+		width: 869px;
+		height: 40px;
+		margin-left: 1.5em;
+		top: 13px;
+		font-size: 17px;
+		font-family: poppins;
+		font-weight: 700;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.track-1{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 869px;
+		height: 54px;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	.track-2{
+		position: absolute;
+		left: 0px;
+		top: 55px;
+		width: 869px;
+		height: 54px;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	.track-3{
+		position: absolute;
+		left: 0px;
+		top: 110px;
+		width: 869px;
+		height: 54px;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	.track-4{
+		position: absolute;
+		left: 0px;
+		top: 165px;
+		width: 869px;
+		height: 54px;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	.track-5{
+		position: absolute;
+		left: 0px;
+		top: 221px;
+		width: 869px;
+		height: 54px;
+		border-bottom: 1px solid #FFFFFF;
+	}
+	.track-6{
+		position: absolute;
+		left: 0px;
+		top: 277px;
+		width: 1165px;
+		height: 54px;
+	}
+	.pagination{
+		position: absolute;
+		height: 23px;
+		width: 79px;
+		left: 49px;
+		top: 525px;
+		border-radius: 0px;
+	}
+	.left-arrow-chevron{
+		position: absolute;
+		height: 24px;
+		width: 24px;
+		left: 26px;
+		top: 5px;
+		border-radius: 0px;
+	}
+	.bi-chevron-double-left{
+		position: absolute;
+		width: 12px;
+		height: 17px;
+		left: 0px;
+		top: 0px;
+	}
+	.one{
+		position: absolute;
+		height: 20px;
+		width: 11px;
+		left: 47px;
+		top: 0px;
+		border-radius: 0px;
+		font-size: 17px;
+	}
+	.right-arrow-chevron{
+		position: absolute;
+		height: 24px;
+		width: 24px;
+		left: 64px;
+		top: 5px;
+		border-radius: 0px;
+	}
+	.bi-chevron-double-right{
+		position: absolute;
+		width: 12px;
+		height: 17px;
+		left: 0px;
+		top: 0px;
+	}
+	.chart-vector{
+		position: absolute;
+		left: 935px;
+		top: 96px;
+		width: 11px;
+		height: 398px;
+		border-radius: 45px;
+		border: 1px solid #FFFFFF;
+		box-shadow: 0px 4px 90px 0px #000000;
+		background: #FFFFFF;
+	}
+	.commercial{
+		position: absolute;
+		height: 361px;
+		width: 315px;
+		left: 82px;
+		top: 1328px;
+		border-radius: 74px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.commercial-2{
+		position: absolute;
+		height: 361px;
+		width: 315px;
+		left: 0px;
+		top: 0px;
+		border-radius: 74px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.commercial-text{
+		position: absolute;
+		height: 33px;
+		width: 120px;
+		left: 30px;
+		top: 19px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 17px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.commercial-icons{
+		position: absolute;
+		height: 16px;
+		width: 55px;
+		left: 233px;
+		top: 31px;
+		border-radius: 0px;
+	}
+	.share-5{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.bi-share-5{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 16px;
+		height: 16px;
+	}
+	.download-5{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 19px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.bi-download-5{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 16px;
+		height: 16px;
+	}
+	.settings-5{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 37px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.bi-gear-5{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 16px;
+		height: 16px;
+	}
+	.comm-chart{
+		position: absolute;
+		left: 0px;
+		top: 53px;
+		width: 286px;
+		height: 275px;
+	}
+	#commChart{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 353px;
+		height: 334px;
+	}
+	.commercial-vector{
+		position: absolute;
+		height: 241px;
+		width: 11px;
+		left: 296px;
+		top: 61px;
+		border-radius: 10px;
+		border: 1px solid #FFFFFF;
+		box-shadow: 0px 4px 90px 0px #000000;
+		background: #FFFFFF;
+	}
+	.commercial-line{
+		position: absolute;
+		height: 0px;
+		width: 260px;
+		left: 28px;
+		top: 51px;
+		border-radius: 0px;
+	}
+	.audience{
+		position: absolute;
+		height: 361px;
+		width: 315px;
+		left: 407px;
+		top: 1328px;
+		border-radius: 74px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.audience-2{
+		position: absolute;
+		height: 361px;
+		width: 315px;
+		left: 0px;
+		top: 0px;
+		border-radius: 74px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.audience-text{
+		position: absolute;
+		height: 33px;
+		width: 120px;
+		left: 31px;
+		top: 19px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 17px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.audience-icons{
+		position: absolute;
+		height: 16px;
+		width: 55px;
+		left: 228px;
+		top: 31px;
+		border-radius: 0px;
+	}
+	.share-6{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.bi-share-6{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 16px;
+		height: 16px;
+	}
+	.download-6{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 19px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.bi-download-6{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 16px;
+		height: 16px;
+	}
+	.settings-6{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 37px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.bi-gear-6{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 16px;
+		height: 16px;
+	}
+	.aud-chart{
+		position: absolute;
+		left: 24px;
+		top: 53px;
+		width: 265px;
+		height: 323px;
+	}
+	.audChart{
+		position: absolute;
+		left: 24px;
+		top: 53px;
+		width: 324px;
+		height: 323px;
+	}
+	.audience-vector{
+		position: absolute;
+		height: 241px;
+		width: 11px;
+		left: 294px;
+		top: 65px;
+		border-radius: 10px;
+		border: 1px solid #FFFFFF;
+		box-shadow: 0px 4px 90px 0px #000000;
+		background: #FFFFFF;
+	}
+	.audience-line{
+		position: absolute;
+		height: 0px;
+		width: 254px;
+		left: 31px;
+		top: 50px;
+		border-radius: 0px;
+	}
+	.market{
+		position: absolute;
+		height: 361px;
+		width: 315px;
+		left: 732px;
+		top: 1328px;
+		border-radius: 74px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.market-2{
+		position: absolute;
+		height: 361px;
+		width: 315px;
+		left: 0px;
+		top: 0px;
+		border-radius: 74px;
+		box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 25%);
+	}
+	.market-text{
+		position: absolute;
+		height: 33px;
+		width: 120px;
+		left: 31px;
+		top: 20px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 17px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: 41px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.market-icons{
+		position: absolute;
+		height: 16px;
+		width: 55px;
+		left: 232px;
+		top: 31px;
+		border-radius: 0px;
+	}
+	.share-7{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.bi-share-7{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 16px;
+		height: 16px;
+	}
+	.download-7{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 19px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.bi-download-7{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 16px;
+		height: 16px;
+	}
+	.settings-7{
+		position: absolute;
+		height: 16px;
+		width: 16px;
+		left: 37px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.bi-gear-7{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 16px;
+		height: 16px;
+	}
+	.mar-chart{
+		position: absolute;
+		left: 24px;
+		top: 53px;
+		width: 269px;
+		height: 323px;
+	}
+	.marChart{
+		position: absolute;
+		left: 24px;
+		top: 53px;
+		width: 324px;
+		height: 323px;
+	}
+	.market-vector{
+		position: absolute;
+		height: 291px;
+		width: 11px;
+		left: 375px;
+		top: 65px;
+		border-radius: 10px;
+		border: 1px solid #FFFFFF;
+		box-shadow: 0px 4px 90px 0px #000000;
+		background: #FFFFFF;	
+	}
+	.market-line{
+		position: absolute;
+		height: 0px;
+		width: 257px;
+		left: 31px;
+		top: 50px;
+		border-radius: 0px;
+	}
+	.footer{
+		position: absolute;
+		height: 595px;
+		width: 1440px;
+		left: 0px;
+		top: 1830px;
+		border-radius: 0px;
+	}
+	.footer-2{
+		position: absolute;
+		height: 627px;
+		width: 1440px;
+		left: 0px;
+		top: -128px;
+		border-radius: 0px;
+	}
+	.newsletter{
+		position: absolute;
+		height: 200px;
+		width: 962px;
+		left: 87px;
+		top: 109px;
+		border-radius: 10px;
+		background: #0A142F;
+	}
+	.newsletter2{
+		position: absolute;
+		height: 72px;
+		width: 868px;
+		left: 286px;
+		top: 173px;
+		border-radius: 0px;
+	}
+	.font-box{
+		position: absolute;
+		height: 72px;
+		width: 868px;
+		left: 53px;
+		top: 64px;
+		border-radius: 0px;
+	}
+	.newsletter-text{
+		position: absolute;
+		height: 43px;
+		width: 318px;
+		left: 0px;
+		top: 14px;
+		border-radius: 0px;
+		font-family: Playfair Display;
+		font-size: 32px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 43px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.email-box{
+		position: absolute;
+		height: 72px;
+		width: 510px;
+		left: 358px;
+		top: 0px;
+		border-radius: 0px;
+		background: white;
+	}
+	.subscribe{
+		position: absolute;
+		height: 56px;
+		width: 180px;
+		left: 322px;
+		top: 8px;
+		border-radius: 0px;
+		background: #0081FE;
+	}
+	.subscribe-text{
+		position: absolute;
+		height: 24px;
+		width: 111px;
+		left: 35px;
+		top: 19px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 13px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 24px;
+		letter-spacing: 0px;
+		text-align: center;
+		/* background: #FFFFFF; */
+	}
+	.email{
+		color:rgba(43.00000123679638, 61.00000016391277, 81.00000277161598, 1);
+		opacity:0.5;	
+		position: absolute;
+		height: 24px;
+		width: 130px;
+		left: 24px;
+		top: 21px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0px;
+		text-align: left;
+	}
+	.group{
+		position: absolute;
+		height: 142px;
+		width: 1090px;
+		left: 94px;
+		top: 357px;
+		border-radius: 0px;
+	}
+	.socials{
+		position: absolute;
+		height: 24px;
+		width: 165px;
+		left: 802px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.facebook{
+		position: absolute;
+		height: 29px;
+		width: 32px;
+		top: 0px;
+		left: 0px;
+	}
+	.facebook img{
+		height: 29px;
+		width: 32px;
+		position: absolute;
+		top: -4px;
+	}
+	.twitter{
+		position: absolute;
+		height: 21px;
+		width: 21px;
+		top: 0px;
+		left: 46px;
+	}
+	.twitter img{
+		height: 21px;
+		width: 21px;
+	}
+	.youtube{
+		position: absolute;
+		height: 32px;
+		width: 30px;
+		top: 0px;
+		left: 82px;
+	}
+	.youtube img{
+		height: 32px;
+		width: 30px;
+		position: absolute;
+		top: -5px;
+	}
+	.instagram{
+		position: absolute;
+		height: 23px;
+		width: 24px;
+		top: 0px;
+		left: 125px;
+	}
+	.instagram img{
+		height: 23px;
+		width: 24px;
+	}
+	.links{
+		position: absolute;
+		height: 18px;
+		width: 410px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+	}
+	.team{
+		position: absolute;
+		height: 24px;
+		width: 71px;
+		left: 346px;
+		top: 0px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.contact{
+		position: absolute;
+		height: 24px;
+		width: 66px;
+		left: 238px;
+		top: 0px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.about-us{
+		/* position: absolute; */
+		height: 24px;
+		width: 71px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.our-products{
+		position: absolute;
+		height: 24px;
+		width: 104px;
+		left: 110px;
+		top: 0px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.group-line{
+		position: absolute;
+		height: 1px;
+		width: 953px;
+		left: 0px;
+		top: 51px;
+		border-radius: 0px;
+		background: #0A142F;
+		border: 1px solid #2B3D51;
+	}
+	.terms{
+		position: absolute;
+		height: 21px;
+		width: 130px;
+		left: 720px;
+		top: 97px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 13px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 21px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.privacy{
+		position: absolute;
+		height: 21px;
+		width: 110px;
+		left: 869px;
+		top: 97px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 21px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.rights{
+		position: absolute;
+		height: 21px;
+		width: 328px;
+		left: 0px;
+		top: 95px;
+		border-radius: 0px;
+		font-family: Poppins;
+		font-size: 13px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 21px;
+		letter-spacing: 0px;
+		text-align: left;
+		/* background: #FFFFFF; */
+	}
+	.company-logo{
+		position: absolute;
+		height: 199px;
+		width: 282px;
+		left: 468px;
+		top: 444px;
+		border-radius: 0px;
+		/*background: url('About us images/rectangle_48.png');*/
+	}
+	.company-logo img{
+		position: absolute;
+		height: 199px;
+		width: 282px;
+		left: 0px;
+		top: 0px;
+		border-radius: 0px;
+		/*background: url('About us images/rectangle_48.png');*/
+	}
 }
-#myChart{
-	position: relative;
-	border-radius: 59px;
+@media screen and (min-width:1025px) and (max-width:1440px) {
+	.navbar{
+		display: block !important;
+		position: absolute;
+		height: 91px;
+		width: 1094px !important;
+		left: 152px;
+		top: 46px;
+		border-radius: 0px;
+	}	
 }

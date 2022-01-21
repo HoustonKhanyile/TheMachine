@@ -5,8 +5,10 @@
 
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="{% static 'form-style-version10.css' %}">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'form-style-version14.css' %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="shortcut icon" href="{% static 'favicon.png' %}" type="image/png">
@@ -16,17 +18,63 @@
     <form method='POST' action="" class="">
 
         {% csrf_token %}
+        <div id="mynavbar" class="mynavbar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <div class="logo">
+                <img src="{% static 'TheMachine Images/The Machine 2.png' %}" alt="">
+              </div>
+              <span class="HOME">HOME</span>
+              <span class="ARTIST">ARTIST</span>
+              <span class="ABOUTUS">ABOUT US</span>
+              <div class="search-bar">
+                <textarea name="" id="search-area" placeholder="Search" cols="16" rows="1"></textarea>
+                <div class="search-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+                </div>
+              </div>
+                <div class="rec">
+                  <span class="SignIn">SignIN</span>
+                </div>
+                <div class="rec2">
+                  <span class="SignUP">SignUp</span>
+                </div>
+                <script>
+                  function openNav() {
+                    document.getElementById("mynavbar").style.display = "block";
+                  }
+                  function closeNav() {
+                    document.getElementById("mynavbar").style.display = "none";
+                  }
+                </script>
+          </div>
+          <span class="nav-menu" style="font-size: 17px; cursor:pointer" onclick="openNav()">&#9776;OPEN</span>
         <div class="glass">
             <div class="navbar">
                 <div class="logo">
-                    <img src="{% static 'TheMachine Images/The Machine 2.png' %}" alt="">
+                  <img src="{% static 'TheMachine Images/The Machine 2.png' %}" alt="">
                 </div>
-                <ul class="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Artist</a></li>
-                    <li><a href="#">Analytics</a></li>
-                </ul>
+                <span class="HOME">HOME</span>
+                <span class="ARTIST">ARTIST</span>
+                <span class="ABOUTUS">ABOUT US</span>
+                <div class="search-bar">
+                  <textarea name="" id="search-area" placeholder="Search" cols="16" rows="1"></textarea>
+                  <div class="search-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-search" viewBox="0 0 16 16">
+                      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                  </div>
+                </div>
+                  <div class="rec">
+                    <span class="SignIn">SignIN</span>
+                  </div>
+                  <div class="rec2">
+                    <span class="SignUP">SignUp</span>
+                  </div>
+            </div>
+            <div class="logo-2">
+              <img src="{% static 'TheMachine Images/The Machine 2.png' %}" alt="">
             </div>
             <div class="container">
                 <div class="row">
@@ -46,7 +94,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="row mt-3 form">
+                    <div class="row mt-3">
                         <div class="col-md-12"><label class="labels">Producer</label></div>
                         {% render_field form.Producer class="form-control" placeholder="Producer" %}
                         <div class="col-md-12"><label class="labels">Producer_Email</label></div>
