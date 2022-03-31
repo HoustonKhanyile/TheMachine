@@ -5,11 +5,23 @@
             "previewLimit": 50,
             "server": "localhost",
             "port": 5432,
-            "askForPassword": true,
             "driver": "PostgreSQL",
+            "database": "machine",
+            "name": "Machine",
+            "username": "postgres",
+            "password": "AngelM09"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Houston",
             "database": "Houston",
             "username": "postgres",
-            "name": "Houston"
-        }
-    ]
+            "password": "AngelM09"
+        },
+    ],
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "jupyter.jupyterServerType": "local"
 }

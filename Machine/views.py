@@ -1,3 +1,4 @@
+from re import search
 from django.shortcuts import redirect, render
 from django.http import HttpResponse
 from .forms import AppsForm, Book, Perform, Profiles, Profiles2, Public_R
@@ -95,8 +96,11 @@ def Artist_Page(request):
     return render(request, 'Artist Page.html')
 
 def results(request):
-    form = AppsForm()
-    return render(request, 'Results.html', {'form': form})
+    if request.method == "GET":
+        searched = request.GET.get("searched")
+        return render(request, 'Results.html', {'searched': searched})
+    else:
+        return render(request, 'Results.html', {}) 
 
 def email(request):
     return render(request, 'Email.html')

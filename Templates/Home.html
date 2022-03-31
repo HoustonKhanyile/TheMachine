@@ -25,22 +25,25 @@
             <div class="logo">
               <img src="{% static 'TheMachine Images/The Machine 2.png' %}" alt="">
             </div>
-            <span class="HOME">HOME</span>
-            <span class="ARTIST">ARTIST</span>
-            <span class="ABOUTUS">ABOUT US</span>
+            <a href="home"><span class="HOME">HOME</span></a>
+            <a href="Artist"><span class="ARTIST">ARTIST</span></a>
+            <a href="About_us"><span class="ABOUTUS">ABOUT US</span></a>
             <div class="search-bar">
-              <textarea name="" id="search-area" placeholder="Search" cols="16" rows="1"></textarea>
-              <div class="search-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-search" viewBox="0 0 16 16">
-                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                </svg>
-              </div>
+              <form action="{% url 'results' %}">
+                {% csrf_token %}
+                <input type="text" id="search-area" placeholder="Search Artist" name="searched">
+                <div class="search-icon">
+                  <a href="results"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg></a>
+                </div>
+              </form>
             </div>
               <div class="rec">
-                <span class="SignIn">SignIN</span>
+                <a href="Accounts/login"><span class="SignIn">SignIN</span></a>
               </div>
               <div class="rec2">
-                <span class="SignUP">SignUp</span>
+                <a href="Accounts/register"><span class="SignUP">SignUp</span></a>
               </div>
               <script>
                 function openNav() {
@@ -62,10 +65,10 @@
           <br>
           <span class="world">In an everchanging industry. The machine is artist's most powerful tool. A data analytics platform for artist.</span>
           <div class="rec3">
-            <span class="read">READ MORE</span>
+            <a href="About_us"><span class="read">READ MORE</span></a>
           </div>
         </div>
-        <span class="company">@2021 CVEST MUSIC SOLUTIONS. ALL RIGHTS RESERVED.</span>
+        <span class="company">@2022 CVEST MUSIC SOLUTIONS. ALL RIGHTS RESERVED.</span>
       </div>
     </div>
   </body>

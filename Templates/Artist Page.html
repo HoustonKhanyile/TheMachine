@@ -28,9 +28,9 @@
       <div class="logo">
         <img src="{% static 'TheMachine Images/The Machine 2.png' %}" alt="">
       </div>
-      <span class="HOME">HOME</span>
-      <span class="ARTIST">ARTIST</span>
-      <span class="ABOUTUS">ABOUT US</span>
+      <a href="home"><span class="HOME">HOME</span></a>
+      <a href="Artist"><span class="ARTIST">ARTIST</span></a>
+      <a href="About_us"><span class="ABOUTUS">ABOUT US</span></a>
       <div class="search-bar">
         <textarea name="" placeholder="Search" id="search-area" cols="16" rows="1"></textarea>
         <div class="search-icon">
@@ -39,12 +39,12 @@
           </svg>
         </div>
       </div>
-        <div class="rec">
-          <span class="SignIn">SignIN</span>
-        </div>
-        <div class="rec2">
-          <span class="SignUP">SignUp</span>
-        </div>
+      <div class="rec">
+        <a href="Accounts/login"><span class="SignIn">SignIN</span></a>
+      </div>
+      <div class="rec2">
+        <a href="Accounts/register"><span class="SignUP">SignUp</span></a>
+      </div>
         <span class="nav-menu" style="font-size: 17px; cursor:pointer" onclick="openNav()">&#9776;OPEN</span>
         
         <script>
@@ -550,7 +550,7 @@
       <div class="group-line"><hr></div>
       <span class="terms">Terms of Service</span>
       <span class="privacy">Privacy Policy</span>
-      <span class="rights">&COPY;2021 CVEST MUSIC SOLUTIONS. All rights reserved.</span>
+      <span class="rights">&COPY;2022 CVEST MUSIC SOLUTIONS. All rights reserved.</span>
     </div>
     <div class="company-logo">
       <img src="{%static 'TheMachine Images/About us images/rectangle_48.png' %}" alt="">

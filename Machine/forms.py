@@ -13,17 +13,17 @@ class AppsForm(ModelForm):
 class Perform(ModelForm):
     class Meta:
         model = Performance
-        fields = ['Event', 'Date', 'Start_Time', 'Time_Slot', 'Country', 'City', 'Venue']
+        fields = ['Event', 'Start_Time', 'Date', 'Time_Slot', 'Country', 'City', 'Venue']
         
 class Public_R(ModelForm):
     class Meta:
         model = Publicity
-        fields = ['Name', 'Media', 'Country', 'Date', 'Link']
+        fields = ['Name', 'Media', 'Date', 'Country', 'Link']
 
 class Book(ModelForm):
     class Meta:
         model = Bookings
-        fields = ['Artist', 'Event', 'Name_of_Event', 'Date', 'Time_Slot', 'Set_Time', 'Country','City', 'Venue', 'Promoter', 'Promoter_Email']
+        fields = ['Artist', 'Event', 'Name_of_Event', 'Date', 'Time_Slot', 'Country','City', 'Venue', 'Promoter', 'Promoter_Email']
 
 class Profiles(ModelForm):
     class Meta:

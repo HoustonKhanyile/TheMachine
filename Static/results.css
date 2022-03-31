@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 1);	
+}
+body{
+	width: 100%;
+	height: auto;
+	background-image: url('TheMachine Images/Background color.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+	position: absolute;
+	height: 91px;
+	width: 1094px;
+	left: 141px;
+	top: 38px;
+	border-radius: 0px;
+}
+.closebtn{
+	display: none;
+}
+.nav-menu{
+	display: none;
+}
+.HOME{
+	position: absolute;
+	height: 34px;
+	width: 93.95413208007812px;
+	left: 195.8201904296875px;
+	top: 43px;
+	border-radius: 0px;
+	font-family: Poppins;
+	font-size: 27px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.ARTIST{
+	position: absolute;
+	height: 34px;
+	width: 101.97296142578125px;
+	left: 316.601806640625px;
+	top: 43px;
+	border-radius: nullpx;
+	font-family: Poppins;
+	font-size: 27px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.ABOUTUS{
+	position: absolute;
+	height: 34px;
+	width: 136.93508911132812px;
+	left: 458.3927917480469px;
+	top: 43px;
+	border-radius: 0px;
+	font-family: Poppins;
+	font-size: 27px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.search-bar{
+	position: absolute;
+	height: 34px;
+	width: 170.92608642578125px;
+	left: 631.2612915039062px;
+	top: 45px;
+	border-radius: 45px;
+	border: 3px solid #FFFFFF;
+}
+.search-icon{
+	position: absolute;
+	height: 19px;
+	width: 24px;
+	left: 137px;
+	top: 4px;
+	border-radius: 0px;
+}
+.bi-search{
+	position: absolute;
+	height: 19px;
+	width: 24px;
+	left: 0px;
+	top: 0px;
+	border-radius: 0px;
+}
+.logo img{
+	position: absolute;
+	height: 57.599998474121094px;
+	width: 100px;
+	left: 12px;
+	top: 31px;
+	border-radius: 0px;
+}
+.rec{
+	position: absolute;
+	height: 41px;
+	width: 115.56927490234375px;
+	left: 976.0270385742188px;
+	top: 38px;
+	border-radius: 10px;
+	background: #6484B4;
+}
+.SignIn{
+	position: absolute;
+	height: 34px;
+	width: 94.94293212890625px;
+	left: 12px;
+	top: 0px;
+	border-radius: 0px;
+	font-family: Poppins;
+	font-size: 27px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.rec2{
+	position: absolute;
+	height: 41px;
+	width: 115.56939697265625px;
+	left: 831.322509765625px;
+	top: 38px;
+	border-radius: 10px;
+	background: #7E81D1;
+}
+.SignUP{
+	position: absolute;
+	height: 39px;
+	width: 102.9442138671875px;
+	left: 7px;
+	top: 0px;
+	border-radius: 0px;
+	font-family: Poppins;
+	font-size: 27px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+#search-area{
+	position: absolute;
+    left: 8px;
+    top: -2px;
+    background: #ffffff00;
+    border: #ffffff00;
+    border-radius: 45px;
+    font-family: 'Poppins';
+    font-size: 19px;
+    font-weight: 700;	
+}
+.results{
+    width: 305px;
+    position: absolute;
+    top: 200px;
+    left: 159px;
+}

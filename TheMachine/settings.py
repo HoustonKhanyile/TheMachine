@@ -88,7 +88,7 @@ WSGI_APPLICATION = 'TheMachine.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Houston',
+        'NAME': 'machine',
         'USER': 'postgres',
         'PASSWORD': 'AngelM09',
         'HOST': 'localhost'     

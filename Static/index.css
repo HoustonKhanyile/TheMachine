@@ -7,7 +7,7 @@
 }
 body{
     width: 1440px;
-    height: 1024px;
+    height: 1037px;
     background-image: url('TheMachine Images/analytics.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,17 +102,17 @@ body{
     border: 3px solid #FFFFFF;
 }
 #search-area{
-	position: absolute;
-	height: 38.109893798828125px;
-	width: 173.427002px;
-	left: 0px;
-	top: -2px;
-	background: #ffffff00;
-	border: #ffffff00;
-	border-radius: 45px;
-	font-family: 'Poppins';
-	font-size: 19px;
-	font-weight: 700;
+    position: absolute;
+    height: 38.109893798828125px;
+    width: 177.427001953125px;
+    left: -3px;
+    top: -4px;
+    border-radius: 45px;
+    background: #FFFFFF42;
+    border: 3px solid #FFFFFF;
+    font-family: 'Poppins';
+    font-size: 19px;
+    font-weight: 700;
 }
 .search-icon{
     position: absolute;
@@ -863,7 +863,7 @@ body{
 @media screen and (min-width:769px) and (max-width:1024px) {
     body{
         width: 1024px;
-        height: 900px;
+        height: 1020px;
         overflow-x: hidden;
     }
     .glass{
