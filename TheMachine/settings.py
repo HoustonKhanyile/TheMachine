@@ -90,7 +90,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'machine',
         'USER': 'postgres',
-        'PASSWORD': 'AngelM09',
+        'PASSWORD': '*******',
         'HOST': 'localhost'     
     }
 }
@@ -145,6 +145,6 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'cvestmusicsolutions@gmail.com'
-EMAIL_HOST_PASSWORD = 'qbqqoauppcbiwmvb'
+EMAIL_HOST_PASSWORD = '*************'
 EMAIL_USE_TLS = True
 
